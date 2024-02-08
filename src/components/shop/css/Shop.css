@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.shopContent {
+    padding: 4rem 3rem;
+    background-color: rgba(226, 205, 174, 0.19);
+    font-family: Poppins, sans-serif;
+}
+
+.baanerImg {
+    width: 400px;
+}
+
+.bannerRight {
+    text-align: right;
+}
+
+.shopContent .shopTitle {
+    font-size: 36px;
+    color: #e69300;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+.shopContent .shopdesc {
+    font-size: 16px;
+    color: #766251;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*=============== langing page css ==================*/
+
+.landing {
+    padding: 4rem;
+}
+
+.landItem .catHeading {
+    margin-bottom: 3rem;
+    color: #A06701;
+}
+
+.landing .landContent .card {
+    border: none;
+    padding: 10px;
+}
+
+.cat-title .link {
+    font-size: 1.19rem;
+    color: #A06701;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.cat-title .link:hover {
+    color: #e69300;
+}
+
+.cat-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 10px solid #ffffff;
+    outline: 1px solid rgb(214, 214, 214);
+}
+
+/* ========Swipper========Css */
+.blogSwiper {
+    background-color: rgba(226, 205, 174, 0.2);
+    padding: 3rem 1rem;
+}
+
+.blogSwiper .swiperHead {
+    color: #A06701;
+    margin-bottom: 2rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+}
+
+.slide .card {
+    border-radius: 0;
+    width: 21.5rem;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.slide .card img {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    height: 250px;
+}
+
+.slide .card .card-title {
+    color: #A06701;
+}
+
+.slide .card .shop {
+    color: #714903;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1158px) {
+    .slide .card {
+        width: 18rem;
+    }
+
+    .slide .card p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .bannerRight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .shopContent {
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .shopContent {
+        padding: 2rem 0.3rem;
+    }
+
+    .shopContent .shopTitle {
+        margin-top: 1rem;
+        font-size: 26px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .cat-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .landing {
+        padding: 1rem;
+    }
+
+    .shopContent .shopTitle {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+
+    .shopContent .shopTitle {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .slide .card {
+        width: 16rem;
+    }
+}

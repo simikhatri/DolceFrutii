@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+/* ======Contact page CSS======== */
+
+.contact {
+  letter-spacing: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 4rem 0;
+}
+
+.contactForm .Form .btn {
+  color: #e69300;
+  border-radius: 0;
+  border: 2px solid #e69300;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0.4rem 1rem;
+}
+
+.contactForm .Form .btn:hover {
+  color: #ffffff;
+  background-color: #e69300;
+}
+
+.contact h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #28251f;
+}
+
+.contact .officehour {
+  margin: 1.3rem 0;
+  font-size: 1.5rem;
+  color: #e69300;
+}
+
+.contact .contactContent {
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+}
+
+.contleft .contheading {
+  font-size: 2.5rem;
+  color: #A06701;
+  padding-bottom: 0.8rem;
+}
+
+.contleft .contpara {
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contleft strong {
+  font-size: 1.3rem;
+  color: #A06701;
+  padding-right: 8px;
+}
+
+.contleft .othercont {
+  font-size: 20px;
+  font-weight: 500;
+  color: #e69300;
+}
+
+.contactForm {
+  letter-spacing: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 5rem;
+  padding-bottom: 3rem;
+  background-color: rgba(226, 205, 174, 0.2);
+}
+
+.socialIcons .iconss {
+  color: #e69300;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.contactForm .label {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #A06701;
+}
+
+.garden .contRight {
+  text-align: right;
+}
+
+.contactForm .label span {
+  color: rgb(227, 5, 5);
+}
+
+.contactForm .input-field {
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  width: 90%;
+  background-color: #e9e7e7;
+}
+
+.contactForm .input-field:focus {
+  border-bottom: 3px solid #e69300;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.formleft h1 {
+  color: #A06701;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.formleft .socialMedia {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactForm {
+    text-align: center;
+  }
+
+  .contactForm .label {
+    float: left;
+  }
+
+  .contactForm .input-field {
+    width: 100%;
+  }
+
+  .contactForm .Form {
+    margin-bottom: 3rem;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .contactForm {
+    padding: 2rem;
+  }
+
+  .contleft .contheading {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .contactForm {
+    padding: 0.5rem;
+  }
+}

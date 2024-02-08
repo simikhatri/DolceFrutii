@@ -1,0 +1,90 @@
+.testimonials {
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.testimonials .testHead {
+    color: #A06701;
+    margin-bottom: 4rem;
+}
+
+.testimonials .card {
+    width: 21.5rem;
+    border-radius: 3px;
+    border-color: rgb(211, 211, 211);
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 330px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+
+}
+
+.testimonials .card img {
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.testimonials .card .card-body {
+    margin-top: 1rem;
+}
+
+.testimonials .card .card-title {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.testimonials .card .date {
+    font-size: 13px;
+    color: rgb(144, 144, 144);
+    margin-bottom: 0.5rem;
+}
+
+.testimonials .card .review {
+    color: orange;
+    margin-bottom: 0.3rem;
+}
+
+.testimonials .card .card-text {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+    .testimonials .card {
+        width: 17rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .testimonials {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .testimonials .card {
+        width: 15rem;
+    }
+}
