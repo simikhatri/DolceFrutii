@@ -11,8 +11,8 @@ const Slider = () => {
                         <div className="img1 img"></div>
                         <div className="carousel-caption">
                             <h1 className='mb-2'>Dolce Frutti</h1>
-                            <h6 className='mb-3'>100% organic Fruites</h6>
-                            <button>BUY SOME</button>
+                            <h6 className='mb-3'>100% organic Fruits</h6>
+                            <button>SHOP</button>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">

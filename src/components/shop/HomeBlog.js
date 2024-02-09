@@ -18,7 +18,7 @@ const HomeBlog = () => {
     return (
         <>
             <div className="blogSwiper text-center">
-                <h1 className='swiperHead'>Our Blog</h1>
+                <h1 className='swiperHead'>Blogs</h1>
                 <div>
                     <Swiper className='Swiper'
                         slidesPerView={3}
