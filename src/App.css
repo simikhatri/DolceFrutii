@@ -10,10 +10,10 @@
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   transition: background-color 0.3s ease;
   position: fixed;
-  z-index: 1000;
+  z-index: 9999;
   left: 0;
   width: 100%;
   padding: 0 1rem;
@@ -48,11 +48,11 @@
 }
 
 .navbar .nav-item:hover {
-  border-bottom: 2px solid #A06701;
+  border-bottom: 2px solid #fff;
 }
 
 .navbar .nav-item .nav-link {
-  color: #A06701;
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
   padding: 1.2rem;
@@ -65,7 +65,7 @@
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #e69300;
+  color: #fff;
 }
 
 .dropdown .item {
@@ -117,7 +117,7 @@ li:hover ul#submenu {
 
 .rightContent .icon {
   font-size: 25px;
-  color: #A06701;
+  color: #e69300;
 
 }
 
@@ -205,7 +205,19 @@ li:hover ul#submenu {
   color: #fc9e07;
   cursor: pointer;
 }
-
+nav.navbar.navbar-expand-lg:after {
+  background-image: linear-gradient(180deg,#ffffff66 0 0,#fff0 70% 0);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  height: 166px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
 @media only screen and (max-width: 360px) {
   .contleft .contheading {
     font-size: 1.6rem;
