@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.shopContent {
+/* .shopContent {
     padding: 4rem 3rem;
     background-color: rgba(226, 205, 174, 0.19);
     font-family: Poppins, sans-serif;
@@ -27,7 +27,7 @@
     color: #766251;
     font-weight: 400;
     font-style: normal;
-}
+} */
 
 /*=============== langing page css ==================*/
 
@@ -87,7 +87,6 @@
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,6 +102,7 @@
     width: 21.5rem;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    margin-bottom: 2rem;
 }
 
 .slide .card img {
@@ -119,6 +119,19 @@
     color: #714903;
     text-decoration: none;
     font-weight: 400;
+}
+
+.MoreBlogBtn .btn {
+    background-color: transparent;
+    border: 2px solid#e69300;
+    color: #e69300;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.MoreBlogBtn .btn:hover {
+    background-color: #e69300;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 1158px) {

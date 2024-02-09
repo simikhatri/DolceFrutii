@@ -7,12 +7,14 @@ import { RiMenu3Line } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa6";
+import login from '../images/login.png'
 
 
 const Header = () => {
     // const [isSearchVisible, setIsSearchVisible] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
+    const [loginHovered, setloginHovered] = useState(false);
 
     const handleMouseEnter = () => {
         setIsHovered(true);
@@ -20,6 +22,13 @@ const Header = () => {
 
     const handleMouseLeave = () => {
         setIsHovered(false);
+    };
+    const handleloginEnter = () => {
+        setloginHovered(true);
+    };
+
+    const handleloginLeave = () => {
+        setloginHovered(false);
     };
 
     // const handleSearchToggle = () => {
@@ -97,9 +106,22 @@ const Header = () => {
                                 </Link>
                             </div> */}
                             <div className='text-center px-2'>
-                                <Link className="nav-link" to="/">
-                                    <CgProfile className='icon' />
-                                </Link>
+                                <div onMouseEnter={handleloginEnter}
+                                    onMouseLeave={handleloginLeave}>
+                                    <Link className="nav-link position-relative" to="/" >
+                                        <img src={login} alt="" className='loginImg' />
+                                    </Link>
+                                    {loginHovered && (
+                                        <ul className="loginMenu position-absolute">
+                                            <li className='mb-3'>
+                                                <Link className="item" to="#action/3.1">Login</Link>
+                                            </li>
+                                            <li>
+                                                <Link className="item" to="#action/3.1">Sign Up</Link>
+                                            </li>
+                                        </ul>
+                                    )}
+                                </div>
                             </div>
                             <div className='text-center px-2'>
                                 <Link className="nav-link" to="/">

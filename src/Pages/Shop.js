@@ -10,7 +10,7 @@ const Shop = () => {
     return (
         <div>
             <Slider />
-            <div className="shopContent">
+            {/* <div className="shopContent">
                 <div className="container text-center">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12">
@@ -32,7 +32,7 @@ const Shop = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             <Landing />
             <HomeBlog />
             <Testimonial />
