@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './css/slider.css'
 
 const Slider = () => {

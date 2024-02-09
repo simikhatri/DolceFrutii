@@ -6,14 +6,12 @@
 .carousel .carousel-item .img1 {
     background-image: url('../../../images/pic1.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carousel .carousel-item .img2 {
     background-image: url('../../../images/pic2.jpg');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 

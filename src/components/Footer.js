@@ -28,12 +28,12 @@ const Footer = () => {
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12 SLinks">
                                 <Link to='/' className="Reviews">
-                                    <IoLeafSharp className='mb-1' /> 100% Organic
+                                    <IoLeafSharp className='mb-1' /> 100% organic
                                 </Link>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12 SLinks">
                                 <Link to='/' className="Reviews">
-                                    <IoIosHeart className='mb-1' /> Heart Healthy
+                                    <IoIosHeart className='mb-1' /> heart healthy
                                 </Link>
                             </div>
                         </div>

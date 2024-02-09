@@ -90,7 +90,7 @@ const Header = () => {
                                 <input type="text" placeholder="Search" />
                             </div>
                         )}
-                        <div className="d-flex mb-3">
+                        <div className="d-flex">
                             <div className='text-center px-2'>
                                 <Link className="nav-link" to="/">
                                     <IoSearchSharp className='icon' onClick={handleSearchToggle} />

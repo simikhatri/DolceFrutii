@@ -10,8 +10,13 @@
 }
 
 .navbar {
+  background-color: rgb(255, 255, 255, 0.8);
+  transition: background-color 0.3s ease;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  width: 100%;
   padding: 0 1rem;
-  border-bottom: 2px solid brown;
 }
 
 .navbar .logo {
@@ -42,12 +47,15 @@
   padding: 0;
 }
 
+.navbar .nav-item:hover {
+  border-bottom: 2px solid #A06701;
+}
+
 .navbar .nav-item .nav-link {
   color: #A06701;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 1.2rem;
-  padding-bottom: 2rem;
   letter-spacing: normal;
   font-family: 'Roboto', sans-serif;
 }
@@ -58,12 +66,6 @@
 
 .navbar .nav-item .nav-link:hover {
   color: #e69300;
-}
-
-.container-fluid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .dropdown .item {
@@ -85,7 +87,7 @@
 
 .rightContent li {
   list-style: none;
-  padding: 0 0.5rem 1rem 1rem;
+  padding: 0 0.5rem 0rem 1rem;
 
 }
 
@@ -142,7 +144,7 @@ li:hover ul#submenu {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0.8);
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -285,6 +287,10 @@ li:hover ul#submenu {
 
   .social .SLinks {
     margin-bottom: 1rem;
+  }
+
+  .rightContent {
+    padding-bottom: 2rem;
   }
 
   .footer .link {
