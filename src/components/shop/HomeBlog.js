@@ -25,7 +25,7 @@ const HomeBlog = () => {
                                     <div className="card" >
                                         <img src={dates} className="card-img-top img-fluid" alt="..." />
                                         <div className="card-body text-start">
-                                            <h5 className="card-title">Dates</h5>
+                                            <h4 className="card-title">Dates</h4>
                                             <p>Nature's sweet gems, a delightful blend of chewy and rich goodness.</p>
                                             <Link to="/blog" className="shop">View
                                                 <MdNavigateNext /></Link>
@@ -38,7 +38,7 @@ const HomeBlog = () => {
                                     <div className="card" >
                                         <img src={pome} className="card-img-top" alt="..." />
                                         <div className="card-body text-start">
-                                            <h5 className="card-title">Pomegranates</h5>
+                                            <h4 className="card-title">Pomegranates</h4>
                                             <p>Bursting jewels, a taste explosion of sweet and tart perfection.</p>
                                             <Link to="/blog" className="shop">View
                                                 <MdNavigateNext /></Link>
@@ -51,7 +51,7 @@ const HomeBlog = () => {
                                     <div className="card" >
                                         <img src={fig} className="card-img-top" alt="..." />
                                         <div className="card-body text-start">
-                                            <h5 className="card-title">Figs</h5>
+                                            <h4 className="card-title">Figs</h4>
                                             <p> Nature's candy, a sweet and chewy delight for a wholesome treat.</p>
                                             <Link to="/blog" className="shop">View
                                                 <MdNavigateNext /></Link>
