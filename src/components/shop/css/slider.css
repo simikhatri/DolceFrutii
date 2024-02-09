@@ -28,8 +28,6 @@
     color: white;
     background-color: rgba(4, 4, 4, 0.7);
     z-index: 1000;
-    position: absolute;
-    bottom: 10%;
 }
 
 .carousel-caption h1 {
@@ -62,7 +60,7 @@
         height: 550px;
     }
 
-    .carousel .carousel-caption button {
+    .carousel-caption button {
         margin-top: 0.5rem;
         padding: 0.4rem 5rem;
     }
@@ -73,26 +71,23 @@
 
 }
 
-@media only screen and (max-width: 850px) {
-    .carousel .carousel-item .img {
-        height: 500px;
-    }
-
-}
 
 @media only screen and (max-width: 650px) {
-    .carousel .carousel-caption button {
+    .carousel-caption button {
         padding: 0.6rem 6rem;
         margin-top: 0.2rem;
     }
 
+}
+
+@media only screen and (max-width: 540px) {
     .carousel .carousel-item .img {
-        height: 450px;
+        height: 520px;
     }
 }
 
 @media only screen and (max-width: 430px) {
-    .carousel .carousel-caption button {
+    .carousel-caption button {
         padding: 0.4rem 4rem;
         font-size: 1rem;
     }
@@ -102,17 +97,18 @@
     }
 
     .carousel .carousel-item .img {
-        height: 400px;
+        height: 480px;
     }
+
 }
 
 @media only screen and (max-width: 350px) {
-    .carousel .carousel-caption button {
-        padding: 0.6rem 1rem;
+    .carousel-caption button {
+        padding: 0.6rem 3rem;
     }
 
     .carousel .carousel-item .img {
-        height: 350px;
+        height: 450px;
     }
 
 }

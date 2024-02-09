@@ -5,11 +5,7 @@ import './css/slider.css'
 const Slider = () => {
     return (
         <div>
-            <div className="carousel-caption">
-                <h1 className='mb-2'>Dolce Frutti</h1>
-                <h6 className='mb-3'>100% organic Fruits</h6>
-                <button>SHOP</button>
-            </div>
+         
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="3000">
@@ -30,6 +26,11 @@ const Slider = () => {
                         </div> */}
                     </div>
                 </div>
+                <div className="carousel-caption">
+                <h1 className='mb-2'>Dolce Frutti</h1>
+                <h6 className='mb-3'>100% organic Fruits</h6>
+                <button>SHOP</button>
+            </div>
             </div>
 
         </div>
