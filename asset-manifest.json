@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DolceFrutii/static/css/main.2daa2506.css",
-    "main.js": "/DolceFrutii/static/js/main.a877b501.js",
+    "main.css": "/DolceFrutii/static/css/main.e262474d.css",
+    "main.js": "/DolceFrutii/static/js/main.02ca0c3e.js",
     "static/media/Logo.png": "/DolceFrutii/static/media/Logo.89ce42f2e9e45f462eac.png",
     "static/media/pic3.jpeg": "/DolceFrutii/static/media/pic3.c03466ad15b08fe82372.jpeg",
     "static/media/pic1.jpeg": "/DolceFrutii/static/media/pic1.bfb7ed6c5989ee054fa1.jpeg",
@@ -13,11 +13,11 @@
     "static/media/pomog.jpg": "/DolceFrutii/static/media/pomog.73d8fe31df19f251cfdb.jpg",
     "static/media/mango.jpg": "/DolceFrutii/static/media/mango.e1e4f80b2b3d536a8904.jpg",
     "index.html": "/DolceFrutii/index.html",
-    "main.2daa2506.css.map": "/DolceFrutii/static/css/main.2daa2506.css.map",
-    "main.a877b501.js.map": "/DolceFrutii/static/js/main.a877b501.js.map"
+    "main.e262474d.css.map": "/DolceFrutii/static/css/main.e262474d.css.map",
+    "main.02ca0c3e.js.map": "/DolceFrutii/static/js/main.02ca0c3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2daa2506.css",
-    "static/js/main.a877b501.js"
+    "static/css/main.e262474d.css",
+    "static/js/main.02ca0c3e.js"
   ]
 }
