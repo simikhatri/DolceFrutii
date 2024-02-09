@@ -10,7 +10,7 @@ import { FaChevronUp } from "react-icons/fa6";
 
 
 const Header = () => {
-    const [isSearchVisible, setIsSearchVisible] = useState(false);
+    // const [isSearchVisible, setIsSearchVisible] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
 
@@ -22,9 +22,9 @@ const Header = () => {
         setIsHovered(false);
     };
 
-    const handleSearchToggle = () => {
-        setIsSearchVisible(!isSearchVisible);
-    };
+    // const handleSearchToggle = () => {
+    //     setIsSearchVisible(!isSearchVisible);
+    // };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -51,6 +51,11 @@ const Header = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/about">
+                                About
+                            </Link>
+                        </li>
                         <li className="nav-item" onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}>
                             <Link className="nav-link" to="/" >
@@ -62,11 +67,6 @@ const Header = () => {
                                     <Link className="item" to="#action/3.1">All Products</Link>
                                 </li>
                             </ul>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/about">
-                                About
-                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/blog">
@@ -85,17 +85,17 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className='rightContent'>
-                        {isSearchVisible && (
+                        {/* {isSearchVisible && (
                             <div className="nav-item search-field">
                                 <input type="text" placeholder="Search" />
                             </div>
-                        )}
+                        )} */}
                         <div className="d-flex">
-                            <div className='text-center px-2'>
+                            {/* <div className='text-center px-2'>
                                 <Link className="nav-link" to="/">
                                     <IoSearchSharp className='icon' onClick={handleSearchToggle} />
                                 </Link>
-                            </div>
+                            </div> */}
                             <div className='text-center px-2'>
                                 <Link className="nav-link" to="/">
                                     <CgProfile className='icon' />
