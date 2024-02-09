@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/DolceFrutii/static/css/main.99b608cb.css",
-    "main.js": "/DolceFrutii/static/js/main.be39cb4a.js",
+    "main.css": "/DolceFrutii/static/css/main.2daa2506.css",
+    "main.js": "/DolceFrutii/static/js/main.a877b501.js",
     "static/media/Logo.png": "/DolceFrutii/static/media/Logo.89ce42f2e9e45f462eac.png",
-    "static/media/pic3.jpg": "/DolceFrutii/static/media/pic3.794ad5085f22ee3b5a1a.jpg",
-    "static/media/pic2.jpg": "/DolceFrutii/static/media/pic2.c196dc8fbe0a03a3b096.jpg",
-    "static/media/pic1.jpg": "/DolceFrutii/static/media/pic1.486eb72e73609f041969.jpg",
+    "static/media/pic3.jpeg": "/DolceFrutii/static/media/pic3.c03466ad15b08fe82372.jpeg",
+    "static/media/pic1.jpeg": "/DolceFrutii/static/media/pic1.bfb7ed6c5989ee054fa1.jpeg",
     "static/media/banner.png": "/DolceFrutii/static/media/banner.1125a730cdb87e21e90d.png",
+    "static/media/pic2.jpeg": "/DolceFrutii/static/media/pic2.ffc24c2c923733702837.jpeg",
     "static/media/orange.jpg": "/DolceFrutii/static/media/orange.549b0952b0a11e485776.jpg",
     "static/media/fig.jpg": "/DolceFrutii/static/media/fig.5e83101cb3ba49a56311.jpg",
     "static/media/cm9.jpg": "/DolceFrutii/static/media/cm9.ca669d7c81f4988d96f3.jpg",
     "static/media/pomog.jpg": "/DolceFrutii/static/media/pomog.73d8fe31df19f251cfdb.jpg",
     "static/media/mango.jpg": "/DolceFrutii/static/media/mango.e1e4f80b2b3d536a8904.jpg",
     "index.html": "/DolceFrutii/index.html",
-    "main.99b608cb.css.map": "/DolceFrutii/static/css/main.99b608cb.css.map",
-    "main.be39cb4a.js.map": "/DolceFrutii/static/js/main.be39cb4a.js.map"
+    "main.2daa2506.css.map": "/DolceFrutii/static/css/main.2daa2506.css.map",
+    "main.a877b501.js.map": "/DolceFrutii/static/js/main.a877b501.js.map"
   },
   "entrypoints": [
-    "static/css/main.99b608cb.css",
-    "static/js/main.be39cb4a.js"
+    "static/css/main.2daa2506.css",
+    "static/js/main.a877b501.js"
   ]
 }
