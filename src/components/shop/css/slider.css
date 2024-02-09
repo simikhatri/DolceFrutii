@@ -27,13 +27,16 @@
     text-align: center;
     color: white;
     background-color: rgba(4, 4, 4, 0.7);
+    z-index: 1000;
+    position: absolute;
+    bottom: 10%;
 }
 
 .carousel-caption h1 {
     font-size: 3rem;
 }
 
-.carousel .carousel-caption button {
+.carousel-caption button {
     margin-top: 1rem;
     color: #f09c05;
     background-color: transparent;
@@ -48,7 +51,7 @@
     overflow-wrap: normal;
 }
 
-.carousel .carousel-caption button:hover {
+.carousel-caption button:hover {
     color: #fff;
     background-color: rgba(240, 156, 5, 0.7);
     border: 2px solid #f09c05;
@@ -86,14 +89,6 @@
     .carousel .carousel-item .img {
         height: 450px;
     }
-
-    .carousel .carousel-caption .carouselhead {
-        font-size: 2rem;
-    }
-
-    .carousel-item .thirdSlide h1 {
-        font-size: 2rem;
-    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -114,14 +109,6 @@
 @media only screen and (max-width: 350px) {
     .carousel .carousel-caption button {
         padding: 0.6rem 1rem;
-    }
-
-    .carousel .carousel-caption .carouselhead {
-        font-size: 1.5rem;
-    }
-
-    .carousel-item .thirdSlide h1 {
-        font-size: 1.5rem;
     }
 
     .carousel .carousel-item .img {
