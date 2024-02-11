@@ -18,7 +18,7 @@ const Footer = () => {
         <>
             <footer className="footer text-center">
                 {/* Section: Social media */}
-                <div className="social" style={{ backgroundColor: '#A06701' }}>
+                <div className="social d-none" style={{ backgroundColor: '#A06701' }}>
                     <div className="container">
                         <div className="row p-4 text-white justify-content-center" >
                             <div className="col-lg-4 col-md-6 col-sm-12 SLinks">
@@ -122,9 +122,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <div className="text-center p-3" style={{ backgroundColor: '#A06701', color: "#ffffff", fontSize: '20px' }}>
-                    2024 All CopyRights reserved |
-                    <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#e69300" }}> Dolce Frutti LLC</Link>
+                <div className="text-center py-2" style={{ backgroundColor: 'rgb(240 156 5)', color: "#ffffff", fontSize: '20px' }}>
+                    2024 All Copyrights reserved |
+                    <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#ffffff" }}> Dolce Frutti LLC</Link>
                 </div>
             </footer >
 
