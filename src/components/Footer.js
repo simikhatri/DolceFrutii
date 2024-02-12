@@ -123,7 +123,7 @@ const Footer = () => {
                     </div>
                 </section>
                 <div className="text-center py-2" style={{ backgroundColor: 'rgb(240 156 5)', color: "#ffffff", fontSize: '20px' }}>
-                    2024 All Copyrights reserved |
+                    2024 All Copyrights Reserved |
                     <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#ffffff" }}> Dolce Frutti LLC</Link>
                 </div>
             </footer >

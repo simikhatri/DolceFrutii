@@ -139,22 +139,8 @@ li:hover ul#submenu {
 
 }
 
-.search-field input {
-  margin-bottom: 1rem;
-}
-
 .rightContent .icon:hover {
   color: #e69300;
-}
-
-
-.navbar .search-field {
-  display: flex;
-  align-items: center;
-}
-
-.search-field input:focus {
-  border: none;
 }
 
 .navbar-scrolled {
@@ -368,14 +354,6 @@ nav.navbar.navbar-expand-lg:after {
 
   .navbar-toggler .menu-icon {
     font-size: 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-
-  .search-field input {
-    width: 150px;
-    margin-bottom: 1rem;
   }
 }
 

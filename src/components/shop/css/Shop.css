@@ -32,11 +32,11 @@
 /*=============== langing page css ==================*/
 
 .landing {
-    padding: 4rem;
+    padding: 5rem 4rem;
 }
 
 .landItem .catHeading {
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
     color: #A06701;
 }
 
@@ -69,12 +69,12 @@
 /* ========Swipper========Css */
 .blogSwiper {
     background-color: rgba(226, 205, 174, 0.2);
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
 }
 
 .blogSwiper .swiperHead {
     color: #A06701;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .swiper {
@@ -100,7 +100,7 @@
 .slide .card {
     border-radius: 0;
     width: 22.5rem;
-    border:0;
+    border: 0;
     border-radius: 10px;
     margin-bottom: 2rem;
     box-shadow: 3.43949px 3.43949px 15.7961px rgb(0 0 0/6%);
@@ -130,6 +130,7 @@
     color: #e69300;
     border-radius: 0;
     font-weight: 600;
+    margin-top: 1rem;
 }
 
 .MoreBlogBtn .btn:hover {

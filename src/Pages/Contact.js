@@ -9,6 +9,7 @@ const Contact = () => {
     return (
         <>
             <div className="contact animated fadeInLeft">
+
                 {/* <div className="ContactBack">
                     <div className="text-center contItem">
                         <h1 className='conthead'>Contact Us</h1>
@@ -60,8 +61,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </Container>
+                <ContactForm />
             </div >
-            <ContactForm />
+
         </>
     )
 }

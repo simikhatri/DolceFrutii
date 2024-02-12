@@ -4,8 +4,9 @@
 .contact {
   letter-spacing: normal;
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 0 0 4rem 0;
+  padding: 12rem 0 5rem 0;
 }
+
 /* 
 .contact .ContactBack {
   background-image: url('../../images/contact.jpg');
@@ -81,17 +82,20 @@
   color: #A06701;
 } */
 
-.contactForm .Form .btn {
+
+
+
+.contactForm .btn {
   color: #e69300;
   border-radius: 0;
   border: 2px solid #e69300;
   background-color: transparent;
   font-size: 18px;
   font-weight: 400;
-  padding: 0.4rem 1rem;
+  padding: 0.2rem 1.5rem;
 }
 
-.contactForm .Form .btn:hover {
+.contactForm .btn:hover {
   color: #ffffff;
   background-color: #e69300;
 }
@@ -101,6 +105,10 @@
   font-weight: 600;
   margin-bottom: 2rem;
   color: #e69300;
+}
+
+.contact .contItem {
+  margin-bottom: 7rem;
 }
 
 .contact .officehour {
@@ -114,6 +122,19 @@
   font-size: 19px;
 }
 
+.contactInfo .heading h5 {
+  color: #A06701;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0.2rem;
+}
+
+.contactInfo .heading p {
+  color: #e69300;
+  margin-bottom: 1rem;
+}
+
+/*
 .contleft .contheading {
   font-size: 2.5rem;
   color: #A06701;
@@ -144,7 +165,7 @@
   padding-bottom: 3rem;
   background-color: rgba(226, 205, 174, 0.2);
 }
-
+*/
 .socialIcons .iconss {
   color: #e69300;
   padding: 1rem 0;
@@ -152,13 +173,9 @@
 }
 
 .contactForm .label {
-  font-size: 1.3rem;
   font-weight: 400;
+  font-size: 18px;
   color: #A06701;
-}
-
-.garden .contRight {
-  text-align: right;
 }
 
 .contactForm .label span {
@@ -169,8 +186,20 @@
   border: none;
   border-radius: 0;
   padding: 10px;
-  width: 90%;
-  background-color: #e9e7e7;
+  height: 35px;
+  background-color: #f2f0f0;
+}
+
+.contactForm .input-comment {
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  background-color: #f2f0f0;
+}
+
+.contactForm .checkbox {
+  color: #A06701;
+  margin-right: 0.6rem;
 }
 
 .contactForm .input-field:focus {
@@ -179,29 +208,30 @@
   box-shadow: none;
 }
 
-.formleft h1 {
-  color: #A06701;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
-}
-
 .formleft .socialMedia {
   font-size: 20px;
   letter-spacing: 0.5px;
   font-family: 'Poppins', sans-serif;
 }
 
+
 @media only screen and (max-width: 993px) {
-  .contact .ContactBack {
+
+  /* .contact .ContactBack {
     height: 350px;
   }
 
   .contactBy .Item h5 {
     font-size: 17px;
     font-weight: 600;
+  } */
+  .contactInfo {
+    text-align: center;
+    margin-bottom: 3rem;
   }
 }
 
+/*
 @media only screen and (max-width: 768px) {
   .contactForm {
     text-align: center;
@@ -270,4 +300,4 @@
   .contactForm {
     padding: 0.5rem;
   }
-}
+} */
