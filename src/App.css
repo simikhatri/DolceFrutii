@@ -224,8 +224,9 @@ li:hover ul#submenu {
   color: #fc9e07;
   cursor: pointer;
 }
+
 nav.navbar.navbar-expand-lg:after {
-  background-image: linear-gradient(180deg,#ffffff66 0 0,#fff0 70% 0);
+  background-image: linear-gradient(180deg, #ffffff66 0 0, #fff0 70% 0);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,6 +238,7 @@ nav.navbar.navbar-expand-lg:after {
   width: 100%;
   z-index: -1;
 }
+
 @media only screen and (max-width: 360px) {
   .contleft .contheading {
     font-size: 1.6rem;
