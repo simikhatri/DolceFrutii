@@ -1,5 +1,4 @@
 import React from "react";
-// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./css/slider.css"
 import pic1 from "../../Assets/images/pic1.jpg"
 import pic2 from "../../Assets/images/pic2.jpg"
