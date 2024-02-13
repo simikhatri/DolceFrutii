@@ -1,15 +1,14 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import { MdEmail } from "react-icons/md";
-import { FaFacebookF } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaYoutube } from "react-icons/fa6";
-import { IoLogoTiktok } from "react-icons/io5";
-import { Link } from 'react-router-dom'
+import { Container, Row, Col, Form } from 'react-bootstrap';
 import '../CSS/contact.css'
 
 
 const ContactForm = () => {
+    const states = [
+        "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY",
+        "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND",
+        "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
+    ];
     return (
         <>
             <div className="contactForm">
@@ -69,16 +68,21 @@ const ContactForm = () => {
                                         <Form.Control className='input-field' type="text" />
                                     </Form.Group>
                                     <Row>
-                                        <Col xs={12} md={4} lg={4}>
+                                        <Col xs={12} md={4} lg={5}>
                                             <Form.Group className="mb-3">
                                                 <Form.Label className='label'>City</Form.Label>
                                                 <Form.Control className='input-field' type="text" />
                                             </Form.Group>
                                         </Col>
-                                        <Col xs={12} md={4} lg={4}>
+                                        <Col xs={12} md={4} lg={3}>
                                             <Form.Group className="mb-3">
                                                 <Form.Label className='label'>State</Form.Label>
-                                                <Form.Control className='input-field' type="text" />
+                                                <Form.Select className='input-field' aria-label="Default select example">
+                                                    <option></option>
+                                                    {states.map(state => (
+                                                        <option key={state} value={state}>{state}</option>
+                                                    ))}
+                                                </Form.Select>
                                             </Form.Group>
                                         </Col>
                                         <Col xs={12} md={4} lg={4}>
@@ -108,7 +112,7 @@ const ContactForm = () => {
                                         </Form.Select>
                                     </Form.Group>
                                     <Form.Group className="mb-3">
-                                        <Form.Label className='label'>Comments</Form.Label>
+                                        <Form.Label className='label'>Comments<span>*</span></Form.Label>
                                         <Form.Control className='input-comment' as="textarea" rows={4} />
                                     </Form.Group>
                                 </Col>

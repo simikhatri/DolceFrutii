@@ -5,10 +5,10 @@ import 'swiper/css';
 import 'swiper/css/grid';
 import { Autoplay } from 'swiper/modules';
 import { Link } from 'react-router-dom'
-import dates from '../../images/cm9.jpg'
-import pome from '../../images/pomog.jpg'
+import dates from '../../images/dates.jpg'
+import pome from '../../images/pomegranate.jpg'
 import mango from '../../images/mango fruit collage.jpg'
-import fig from '../../images/fig.jpg'
+import fig from '../../images/figs.jpg'
 import orange from '../../images/orange fruit collage.jpg'
 
 const Landing = () => {

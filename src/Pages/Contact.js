@@ -1,7 +1,6 @@
 import React from 'react';
-// import { FaLocationDot } from "react-icons/fa6";
-import { Container } from 'react-bootstrap';
 import ContactForm from '../components/contact/ContactForm';
+import { Link } from 'react-router-dom';
 import '../components/CSS/contact.css'
 
 const Contact = () => {
@@ -9,15 +8,12 @@ const Contact = () => {
     return (
         <>
             <div className="contact animated fadeInLeft">
-
-                {/* <div className="ContactBack">
+                <div className="ContactBack">
                     <div className="text-center contItem">
                         <h1 className='conthead'>Contact Us</h1>
-                        <Link className='link' to="/">Home</Link>
-                        <span> / </span> Contact Us
                     </div>
                 </div>
-                <div className="container">
+                {/* <div className="container">
                     <div className="contactBy">
                         <div className="row">
                             <div className="col-lg-4 col-md-4 col-sm-12">
@@ -51,7 +47,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div> */}
-                <Container>
+                {/* <Container>
                     <div className="text-center contItem">
                         <h1 className='conthead'>Hello!</h1>
                         <div className="contactContent">
@@ -60,7 +56,7 @@ const Contact = () => {
                             <div className='timing'> are 7:00 am to 1:00 pm, Monday through Thursday.</div>
                         </div>
                     </div>
-                </Container>
+                </Container> */}
                 <ContactForm />
             </div >
 
