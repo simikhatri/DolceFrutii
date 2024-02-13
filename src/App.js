@@ -1,7 +1,7 @@
 import './App.css';
 import Contact from './Pages/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 import Blog from './Pages/Blog'
 import { Routes, Route } from "react-router-dom";
 import Shop from './Pages/Shop';

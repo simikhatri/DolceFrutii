@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from "swiper/react";
 import './css/Shop.css'
 import 'swiper/css';
 import 'swiper/css/grid';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
-import dates from '../../images/cm9.jpg'
-import pome from '../../images/pomog.jpg'
-import fig from '../../images/fig.jpg'
+import dates from '../../Assets/images/cm9.jpg'
+import pome from '../../Assets/images/pomog.jpg'
+import fig from '../../Assets/images/fig.jpg'
 import { MdNavigateNext } from "react-icons/md";
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Logo.png';
+import logo from '../../Assets/images/Logo.png';
 import { Link } from 'react-router-dom'
 import { IoSearchSharp } from "react-icons/io5";
 import { IoIosHeart } from "react-icons/io";
@@ -12,6 +12,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa6";
 import { IoLogoTiktok } from "react-icons/io5";
+import './footer.css'
 
 const Footer = () => {
     return (
@@ -45,7 +46,7 @@ const Footer = () => {
                             <div className="row justify-content-evenly alllinks">
                                 <div className="col-lg-3 col-md-3 mb-3">
                                     <div className="footRight">
-                                        <img className='dateImg' src={logo} alt="" />
+                                        <img className='footerlogo' src={logo} alt="" />
                                         <div>
                                             <div className="socialIcons">
                                                 <Link to="https://www.facebook.com/dolcefruttiUSA" className="iconss">
@@ -127,8 +128,6 @@ const Footer = () => {
                     <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#ffffff" }}> Dolce Frutti LLC</Link>
                 </div>
             </footer >
-
-
         </>
     )
 }

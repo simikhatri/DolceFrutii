@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Form } from 'react-bootstrap';
-import '../CSS/contact.css'
-
+import './contact.css'
 
 const ContactForm = () => {
     const states = [

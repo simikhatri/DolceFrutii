@@ -4,7 +4,6 @@ import '../components/shop/css/Shop.css'
 import Landing from '../components/shop/Landing'
 import HomeBlog from '../components/shop/HomeBlog'
 import Testimonial from '../components/shop/Testimonial'
-import banner from '../images/banner.png'
 
 const Shop = () => {
     return (

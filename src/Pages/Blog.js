@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react'
-import date from '../images/cm9.jpg'
-import pome from '../images/pomog.jpg'
-import Citrus from '../images/orange.jpg'
-import figs from "../images/fig.jpg"
-import mango from '../images/mango.jpg'
-import '../components/CSS/blog.css'
+import date from '../Assets/images/cm9.jpg'
+import pome from '../Assets/images/pomog.jpg'
+import Citrus from '../Assets/images/orange.jpg'
+import figs from "../Assets/images/fig.jpg"
+import mango from '../Assets/images/mango.jpg'
+import '../components/blog/blog.css'
 
 const Blog = () => {
     const offeringsRef = useRef(null);

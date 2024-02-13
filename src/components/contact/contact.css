@@ -9,7 +9,7 @@
 
 
 .contact .ContactBack {
-  background-image: url('../../images/pic3.jpg');
+  background-image: url('../../Assets/images/pic3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -87,7 +87,7 @@
   font-size: 3.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #e69300;
+  color: #ffffff;
 }
 
 .contact .contItem {

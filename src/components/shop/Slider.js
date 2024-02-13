@@ -1,13 +1,9 @@
 import React from "react";
 // import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./css/slider.css"
-import pic1 from "../../images/pic1.jpg"
-import pic2 from "../../images/pic2.jpg"
-import pic3 from "../../images/pic3.jpg"
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import { Navigation } from 'swiper/modules';
+import pic1 from "../../Assets/images/pic1.jpg"
+import pic2 from "../../Assets/images/pic2.jpg"
+import pic3 from "../../Assets/images/pic3.jpg"
 
 const Slider = () => {
   return (
