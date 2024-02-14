@@ -168,7 +168,6 @@
 .contactForm .input-field {
   border: none;
   border-radius: 0;
-  padding: 10px;
   height: 35px;
   background-color: #f2f0f0;
 }
@@ -193,6 +192,11 @@
 .contactForm .input-field:focus {
   border-bottom: 3px solid #e69300;
   border-radius: 0;
+  box-shadow: none;
+}
+
+.contactForm .input-comment:focus {
+  border-bottom: 3px solid #e69300;
   box-shadow: none;
 }
 
