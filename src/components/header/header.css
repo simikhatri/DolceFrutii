@@ -10,8 +10,7 @@
 }
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.8);
-  transition: background-color 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   z-index: 2000;
   left: 0;
@@ -20,9 +19,8 @@
 }
 
 .navbar .logo {
-  height: 100px;
-  width: 120px;
-  margin-bottom: 0.3rem;
+  width: 250px;
+  height: auto;
 }
 
 .navbar-nav {
@@ -32,6 +30,11 @@
 .loginImg {
   width: 28px;
   height: 28px;
+  color: white;
+}
+
+.loginImg:hover {
+  color: #E1C343;
 }
 
 .loginMenu {
@@ -41,7 +44,7 @@
 }
 
 .loginMenu .item {
-  color: #A06701;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   padding: 1rem 0;
@@ -58,7 +61,7 @@
 
 .navbar-toggler .menu-icon {
   font-size: 2rem;
-  color: #e69300;
+  color: #E1C343;
 }
 
 .navbar .nav-item {
@@ -66,11 +69,11 @@
 }
 
 .navbar .nav-item:hover {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #E1C343;
 }
 
 .navbar .nav-item .nav-link {
-  color: #A06701;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 500;
   padding: 1.2rem;
@@ -83,19 +86,19 @@
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #000;
+  color: #E1C343;
 }
 
 .dropdown .item {
   padding: 1rem 0;
-  color: #A06701;
-  font-size: 17px;
+  color: #000000;
+  font-size: 19px;
   font-weight: 500;
   text-decoration: none;
 }
 
 .dropdown .item:hover {
-  color: #e69300;
+  color: #E1C343;
 }
 
 .rightContent {
@@ -135,12 +138,12 @@ li:hover ul#submenu {
 
 .rightContent .icon {
   font-size: 25px;
-  color: #A06701;
+  color: #ffffff;
 
 }
 
 .rightContent .icon:hover {
-  color: #e69300;
+  color: #E1C343;
 }
 
 .navbar-scrolled {
@@ -148,16 +151,15 @@ li:hover ul#submenu {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #fff;
+  background-color: #000000;
   z-index: 9999;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-scrolled .container-fluid {
   padding: 0 1rem 0 1rem;
 }
 
-nav.navbar.navbar-expand-lg:after {
+/* nav.navbar.navbar-expand-lg:after {
   background-image: linear-gradient(180deg, #ffffff66 0 0, #fff0 70% 0);
   background-position: 50%;
   background-repeat: no-repeat;
@@ -169,7 +171,7 @@ nav.navbar.navbar-expand-lg:after {
   top: 0;
   width: 100%;
   z-index: -1;
-}
+} */
 
 @media only screen and (max-width: 360px) {
   .contleft .contheading {
@@ -283,6 +285,7 @@ nav.navbar.navbar-expand-lg:after {
     font-size: 1.5rem;
   }
 }
+
 /* 
 @keyframes slidUp {
   0% {

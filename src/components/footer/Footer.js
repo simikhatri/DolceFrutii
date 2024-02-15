@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../Assets/images/Logo.png';
+import logo from '../../Assets/images/logo2.png';
 import { Link } from 'react-router-dom'
 import { IoSearchSharp } from "react-icons/io5";
 import { IoIosHeart } from "react-icons/io";
@@ -50,19 +50,19 @@ const Footer = () => {
                                         <div>
                                             <div className="socialIcons">
                                                 <Link to="https://www.facebook.com/dolcefruttiUSA" className="iconss">
-                                                    <FaFacebookF className='item' />
+                                                    <FaFacebookF className='item mx-1' />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <MdEmail className='item mx-1' />
+                                                    <MdEmail className='item mx-2' />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <AiFillInstagram className='item mx-1' />
+                                                    <AiFillInstagram className='item mx-2' />
                                                 </Link>
                                                 <Link to="https://www.youtube.com/channel/UCTEsan1pgEHkCacYRwm7NQw" className="iconss">
-                                                    <FaYoutube className='item mx-1' />
+                                                    <FaYoutube className='item mx-2' />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <IoLogoTiktok className='item mx-1' />
+                                                    <IoLogoTiktok className='item mx-2' />
                                                 </Link>
                                             </div>
                                         </div>
@@ -72,7 +72,7 @@ const Footer = () => {
                                         </div> */}
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-3 mb-3">
+                                <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Products</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#F15922', height: 3, color: '#F15922' }} />
                                     <p>
@@ -91,7 +91,7 @@ const Footer = () => {
                                         <Link to='/' className="link">Mangos</Link>
                                     </p>
                                 </div>
-                                <div className="col-lg-3 col-md-3 mb-3">
+                                <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Useful links</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#F15922', height: 3, color: '#F15922' }} />
                                     <p>
@@ -110,7 +110,7 @@ const Footer = () => {
                                         <Link to='/' className="link">Sign In</Link>
                                     </p>
                                 </div>
-                                <div className="col-lg-3 col-md-3 mb-3">
+                                <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Contact</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#F15922', height: 3, color: '#F15922' }} />
                                     <p className="link"> <MdOutlineEmail /> support@dolcefrutti.com</p>
@@ -123,9 +123,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <div className="text-center py-2" style={{ backgroundColor: 'rgb(240 156 5)', color: "#ffffff", fontSize: '20px' }}>
+                <div className="text-center py-2" style={{ backgroundColor: ' #E1C343', color: "#000000", fontSize: '20px' }}>
                     2024 All Copyrights Reserved |
-                    <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#ffffff" }}> Dolce Frutti LLC</Link>
+                    <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#000000" }}> Dolce Frutti LLC</Link>
                 </div>
             </footer >
         </>

@@ -7,6 +7,7 @@
   color: #A06701;
   font-family: 'Roboto Condensed', sans-serif;
   border-top: 1px solid #eee;
+  margin-top: 3rem;
 }
 
 .footer .link {
@@ -32,8 +33,7 @@
 }
 
 .footercont .footRight .footerlogo {
-  width: 150px;
-  margin-bottom: 1rem;
+  width: 190px;
 }
 
 .footercont .foothead {

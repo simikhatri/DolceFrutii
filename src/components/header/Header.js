@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../Assets/images/Logo.png';
+import logo from '../../Assets/images/logo.png';
 import { BsCart4 } from "react-icons/bs";
 import { RiMenu3Line } from "react-icons/ri";
 import { FaChevronDown } from "react-icons/fa";
+import { BsPersonFillLock } from "react-icons/bs";
 import { FaChevronUp } from "react-icons/fa6";
 import login from '../../Assets/images/login.png'
 import './header.css'
@@ -92,7 +93,8 @@ const Header = () => {
                                 <div onMouseEnter={handleloginEnter}
                                     onMouseLeave={handleloginLeave}>
                                     <Link className="nav-link position-relative" to="/" >
-                                        <img src={login} alt="" className='loginImg' />
+                                        <BsPersonFillLock className='loginImg' />
+                                        {/* <img src={login} alt="" className='loginImg' /> */}
                                     </Link>
                                     {loginHovered && (
                                         <ul className="loginMenu position-absolute">

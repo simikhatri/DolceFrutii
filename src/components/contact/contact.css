@@ -69,18 +69,17 @@
 
 
 .contactForm .btn {
-  color: #e69300;
+  color: #E1C343;
   border-radius: 0;
-  border: 2px solid #e69300;
-  background-color: transparent;
+  background-color: black;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 0.2rem 1.5rem;
 }
 
 .contactForm .btn:hover {
-  color: #ffffff;
-  background-color: #e69300;
+  color: #000000;
+  background-color: #E1C343;
 }
 
 .contact h1 {
@@ -113,7 +112,7 @@
 }
 
 .contactInfo .heading p {
-  color: #e69300;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -169,7 +168,7 @@
   border: none;
   border-radius: 0;
   height: 35px;
-  background-color: #f2f0f0;
+  background-color: #EDECEC;
 }
 
 .contactForm .input-field option {
@@ -190,13 +189,13 @@
 }
 
 .contactForm .input-field:focus {
-  border-bottom: 3px solid #e69300;
+  border-bottom: 3px solid #E1C343;
   border-radius: 0;
   box-shadow: none;
 }
 
 .contactForm .input-comment:focus {
-  border-bottom: 3px solid #e69300;
+  border-bottom: 3px solid #E1C343;
   box-shadow: none;
 }
 

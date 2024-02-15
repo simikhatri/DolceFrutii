@@ -4,11 +4,14 @@ import '../components/shop/css/Shop.css'
 import Landing from '../components/shop/Landing'
 import HomeBlog from '../components/shop/HomeBlog'
 import Testimonial from '../components/shop/Testimonial'
+import WhatWeDo from '../components/shop/WhatWeDo'
+import ContactForm from '../components/contact/ContactForm'
 
 const Shop = () => {
     return (
         <div>
             <Slider />
+            <WhatWeDo />
             {/* <div className="shopContent">
                 <div className="container text-center">
                     <div className="row align-items-center">
@@ -35,6 +38,8 @@ const Shop = () => {
             <Landing />
             <HomeBlog />
             <Testimonial />
+            <ContactForm />
+
         </div>
 
     )

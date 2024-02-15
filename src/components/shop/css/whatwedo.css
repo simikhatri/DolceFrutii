@@ -1,0 +1,28 @@
+.wedo {
+    padding: 4rem 0;
+    background-color: #EDECEC;
+}
+
+.wedo h1 {
+    color: #A06701;
+    margin-bottom: 4rem;
+}
+
+.wedo .working {
+    padding: 0 1.4rem;
+}
+
+.col-lg-3:not(:first-child) .working {
+    border-left: 1px solid rgb(190, 190, 190);
+}
+
+.wedo .working .icon {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.wedo .working h4 {
+    color: #A06701;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1258px) {}
