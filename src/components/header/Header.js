@@ -2,17 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../Assets/images/logo.png';
 import { BsCart4 } from "react-icons/bs";
+import { IoSearchSharp } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri";
 import { FaChevronDown } from "react-icons/fa";
 import { BsPersonFillLock } from "react-icons/bs";
 import { FaChevronUp } from "react-icons/fa6";
-import login from '../../Assets/images/login.png'
 import './header.css'
 
 const Header = () => {
+    const [isSearchVisible, setIsSearchVisible] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
     const [loginHovered, setloginHovered] = useState(false);
+    const handleSearchToggle = () => {
+        setIsSearchVisible(!isSearchVisible);
+    };
 
     const handleMouseEnter = () => {
         setIsHovered(true);
@@ -88,12 +92,22 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className='rightContent'>
+                        {isSearchVisible && (
+                            <div className="nav-item search-field">
+                                <input type="text" placeholder="Search" />
+                            </div>
+                        )}
                         <div className="d-flex">
+                            <div className='text-center px-2'>
+                                <Link className="nav-link" to="/">
+                                    <IoSearchSharp className='icon' onClick={handleSearchToggle} />
+                                </Link>
+                            </div>
                             <div className='text-center px-2'>
                                 <div onMouseEnter={handleloginEnter}
                                     onMouseLeave={handleloginLeave}>
                                     <Link className="nav-link position-relative" to="/" >
-                                        <BsPersonFillLock className='loginImg' />
+                                        <BsPersonFillLock className='icon loginImg' />
                                         {/* <img src={login} alt="" className='loginImg' /> */}
                                     </Link>
                                     {loginHovered && (

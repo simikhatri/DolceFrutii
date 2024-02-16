@@ -4,7 +4,6 @@
 .contact {
   letter-spacing: normal;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-bottom: 5rem;
 }
 
 
@@ -65,16 +64,20 @@
   color: #A06701;
 } */
 
-
+.contactForm {
+  margin-bottom: 5rem;
+}
 
 
 .contactForm .btn {
-  color: #E1C343;
-  border-radius: 0;
   background-color: black;
-  font-size: 18px;
+  border: 2px solid#000000;
+  color: #E1C343;
+  border-radius: 10px;
+  font-size: 20px;
   font-weight: 600;
-  padding: 0.2rem 1.5rem;
+  margin-top: 1rem;
+  padding: 0.3rem 2rem;
 }
 
 .contactForm .btn:hover {
@@ -168,11 +171,12 @@
   border: none;
   border-radius: 0;
   height: 35px;
-  background-color: #EDECEC;
+  background-color: #ECEFF0;
+  ;
 }
 
 .contactForm .input-field option {
-  background-color: #ffffff;
+  background-color: #ECEFF0;
   color: #A06701;
 }
 
@@ -180,7 +184,7 @@
   border: none;
   border-radius: 0;
   padding: 10px;
-  background-color: #f2f0f0;
+  background-color: #ECEFF0;
 }
 
 .contactForm .checkbox {

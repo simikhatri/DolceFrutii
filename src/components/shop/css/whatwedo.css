@@ -1,11 +1,12 @@
 .wedo {
     padding: 4rem 0;
-    background-color: #EDECEC;
+    background-color: #ECEFF0;
 }
 
 .wedo h1 {
     color: #A06701;
     margin-bottom: 4rem;
+    font-weight: 600;
 }
 
 .wedo .working {
@@ -25,4 +26,5 @@
     color: #A06701;
     margin-bottom: 1rem;
 }
+
 @media only screen and (max-width: 1258px) {}

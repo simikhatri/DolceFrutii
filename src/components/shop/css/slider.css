@@ -47,16 +47,20 @@
     text-shadow: 0 2px 3px rgba(0, 0, 0, .5), 0 4px 7px rgba(0, 0, 0, .5), 0 9px 12px rgba(0, 0, 0, .5);
 }
 
-.btn-shop button {
-    margin-top: 1rem;
+.btn-shop {
+    margin-top: 2rem;
+}
+
+.btn-shop .button {
     background-color: #000000;
     border-radius: 10px 30px;
     color: #E1C343;
+    text-decoration: none;
     padding: 8px 45px !important;
     font-size: 1.2rem;
 }
 
-.btn-shop button:hover {
+.btn-shop .button:hover {
     border: 2px solid #000000;
     background-color: #E1C343;
     color: #000000;
@@ -94,7 +98,7 @@
         height: 550px;
     }
 
-    .carousel-caption button {
+    .carousel-caption .button {
         margin-top: 0.5rem;
         padding: 0.4rem 5rem;
     }
@@ -134,7 +138,7 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .carousel-caption button {
+    .carousel-caption .button {
         padding: 0.6rem 6rem;
         margin-top: 0.2rem;
     }
@@ -163,7 +167,7 @@
 }
 
 @media only screen and (max-width: 430px) {
-    .carousel-caption button {
+    .carousel-caption .button {
         padding: 0.4rem 4rem;
         font-size: 1rem;
     }
@@ -188,7 +192,7 @@
 }
 
 @media only screen and (max-width: 350px) {
-    .carousel-caption button {
+    .carousel-caption .button {
         padding: 0.6rem 3rem;
     }
 

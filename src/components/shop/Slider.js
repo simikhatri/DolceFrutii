@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/slider.css"
+import { Link } from 'react-router-dom';
 import pic1 from "../../Assets/images/pic1.jpg"
 import pic2 from "../../Assets/images/pic2.jpg"
 import pic3 from "../../Assets/images/pic3.jpg"
@@ -22,7 +23,7 @@ const Slider = () => {
               <h2 className="mb-2">No pesticides, fertilizers or herbicides used</h2>
               <h2 className="mb-2">Ripened on trees and Hand-picked</h2>
               <div className="btn-shop">
-                <button>Shop</button>
+                <Link to='/categories' className="button">Shop</Link>
               </div>
             </div>
           </div>
@@ -33,7 +34,7 @@ const Slider = () => {
               <h2 className="mb-2">luscious mangoes, and ruby-red pomegranates</h2>
               <h2 className="mb-2">nature's finest at your fingertips</h2>
               <div className="btn-shop">
-                <button>Shop</button>
+              <Link to='/categories' className="button">Shop</Link>
               </div>
             </div>
           </div>
@@ -43,7 +44,7 @@ const Slider = () => {
               <h2 className="mb-2">embrace nature's wisdom with our permaculture</h2>
               <h2 className="mb-2">farming practices for healthier, sustainable living.</h2>
               <div className="btn-shop">
-                <button>Shop</button>
+              <Link to='/categories' className="button">Shop</Link>
               </div>
             </div>
           </div>

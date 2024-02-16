@@ -5,6 +5,7 @@ import Citrus from '../Assets/images/orange.jpg'
 import figs from "../Assets/images/fig.jpg"
 import mango from '../Assets/images/mango.jpg'
 import '../components/blog/blog.css'
+import FootContact from '../components/footer/FootContact'
 
 const Blog = () => {
     const offeringsRef = useRef(null);
@@ -141,6 +142,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
+            <FootContact />
         </>
     )
 }

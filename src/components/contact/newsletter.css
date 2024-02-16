@@ -1,0 +1,23 @@
+.newsletter {
+    padding: 2rem 0;
+}
+
+.newsletter .form-control {
+    border: none;
+    border-radius: 0;
+    height: 40px;
+    background-color: #ECEFF0;
+    box-shadow: none;
+}
+
+.newsletter .subscribe {
+    height: 39px;
+    background-color: #000000;
+    color: #EDECEC;
+    position: relative;
+    border-radius: 0;
+    font-size: 17px;
+    padding: 0 16px;
+    right: 10%;
+    clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
+}

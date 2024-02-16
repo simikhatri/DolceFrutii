@@ -52,11 +52,11 @@ const Landing = () => {
                   <div className="card">
                     <div className="cat-image">
                       <Link to="/" className="link-category_product">
-                        <img src={mango} alt="" className="img-fluid" />
+                        <img src={orange} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Mangos</Link>
+                      <Link to="/" className='link'>Citrus</Link>
                     </div>
                   </div>
                 </div>
@@ -66,11 +66,11 @@ const Landing = () => {
                   <div className="card">
                     <div className="cat-image">
                       <Link to="/" className="link-category_product">
-                        <img src={pome} alt="" className="img-fluid" />
+                        <img src={mango} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Pomegranates</Link>
+                      <Link to="/" className='link'>Mangos</Link>
                     </div>
                   </div>
                 </div>
@@ -94,11 +94,11 @@ const Landing = () => {
                   <div className="card">
                     <div className="cat-image">
                       <Link to="/" className="link-category_product">
-                        <img src={orange} alt="" className="img-fluid" />
+                        <img src={pome} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Citrus</Link>
+                      <Link to="/" className='link'>Pomegranates</Link>
                     </div>
                   </div>
                 </div>

@@ -38,6 +38,7 @@ const Shop = () => {
             <Landing />
             <HomeBlog />
             <Testimonial />
+            <h1 className='shopcontact'>Contact us</h1>
             <ContactForm />
 
         </div>

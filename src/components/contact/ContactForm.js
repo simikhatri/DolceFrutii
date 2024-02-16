@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Form } from 'react-bootstrap';
 import './contact.css'
+import Newletter from './Newletter';
 
 const ContactForm = () => {
     const states = [
@@ -36,6 +37,7 @@ const ContactForm = () => {
                                     <p>shop@dolcefrutti.com</p>
                                 </div>
                             </div>
+                            <Newletter />
                         </Col>
                         <Col xs={12} md={12} lg={8}>
                             <Row>
@@ -121,7 +123,7 @@ const ContactForm = () => {
                                 I'd like to subscribe to Newsletter <br />
                                 I understand and agree to the privacy policy
                             </div>
-                            <div className='text-center mt-4'>
+                            <div className=' mt-4'>
                                 <button className="btn">Submit</button>
                             </div>
                             {/* <div className="formleft">

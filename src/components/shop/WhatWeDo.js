@@ -3,7 +3,7 @@ import './css/whatwedo.css'
 import { LiaSeedlingSolid } from "react-icons/lia";
 import { SiOverleaf } from "react-icons/si";
 import { FiTruck } from "react-icons/fi";
-
+import { TfiPackage } from "react-icons/tfi";
 
 const WhatWeDo = () => {
     return (
@@ -32,7 +32,7 @@ const WhatWeDo = () => {
                         </div>
                         <div className="col-lg-3 p-0">
                             <div className="working">
-                                <LiaSeedlingSolid className='icon' />
+                                <TfiPackage className='icon' />
                                 <div className="content">
                                     <h4>Fresh Packing</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus at magni eligendi, quia ut eum doloremque eius debitis iure, nemo suscipit!</p>

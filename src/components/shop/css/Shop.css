@@ -38,6 +38,7 @@
 .landItem .catHeading {
     margin-bottom: 3.5rem;
     color: #A06701;
+    font-weight: 600;
 }
 
 .landing .landContent .card {
@@ -68,13 +69,14 @@
 
 /* ========Swipper========Css */
 .blogSwiper {
-    background-color: #EDECEC;
+    background-color: #ECEFF0;
     padding: 4rem 1rem;
 }
 
 .blogSwiper .swiperHead {
     color: #A06701;
     margin-bottom: 3.5rem;
+    font-weight: 600;
 }
 
 .swiper {
@@ -128,16 +130,24 @@
     background-color: black;
     border: 2px solid#000000;
     color: #E1C343;
-    border-radius: 0;
+    border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
     margin-top: 1rem;
+    padding: 0.5rem 2rem;
 }
 
 .MoreBlogBtn .btn:hover {
     border-color: #E1C343;
     background-color: #E1C343;
     color: #000000;
+}
+
+.shopcontact {
+    text-align: center;
+    color: #714903;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (max-width: 1158px) {

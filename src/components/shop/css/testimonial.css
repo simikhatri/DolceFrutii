@@ -1,11 +1,12 @@
 .testimonials {
     padding: 4rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .testimonials .testHead {
     color: #A06701;
     margin-bottom: 4rem;
+    font-weight: 600;
 }
 
 .testimonials .card {
