@@ -37,12 +37,12 @@ const Landing = () => {
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
-                      <Link to="/" className="link-category_product">
+                      <Link to="/categories" className="link-category_product">
                         <img src={dates} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Dates</Link>
+                      <Link to="/categories" className='link'>Dates</Link>
                     </div>
                   </div>
                 </div>
@@ -51,12 +51,12 @@ const Landing = () => {
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
-                      <Link to="/" className="link-category_product">
+                      <Link to="/categories" className="link-category_product">
                         <img src={orange} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Citrus</Link>
+                      <Link to="/categories" className='link'>Citrus</Link>
                     </div>
                   </div>
                 </div>
@@ -65,12 +65,12 @@ const Landing = () => {
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
-                      <Link to="/" className="link-category_product">
+                      <Link to="/categories" className="link-category_product">
                         <img src={mango} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Mangos</Link>
+                      <Link to="/categories" className='link'>Mangos</Link>
                     </div>
                   </div>
                 </div>
@@ -79,12 +79,12 @@ const Landing = () => {
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
-                      <Link to="/" className="link-category_product">
+                      <Link to="/categories" className="link-category_product">
                         <img src={fig} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Figs</Link>
+                      <Link to="/categories" className='link'>Figs</Link>
                     </div>
                   </div>
                 </div>
@@ -93,12 +93,12 @@ const Landing = () => {
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
-                      <Link to="/" className="link-category_product">
+                      <Link to="/categories" className="link-category_product">
                         <img src={pome} alt="" className="img-fluid" />
                       </Link>
                     </div>
                     <div className="cat-title">
-                      <Link to="/" className='link'>Pomegranates</Link>
+                      <Link to="/categories" className='link'>Pomegranates</Link>
                     </div>
                   </div>
                 </div>

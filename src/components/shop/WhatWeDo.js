@@ -15,7 +15,7 @@ const WhatWeDo = () => {
                         <div className="col-lg-3 p-0">
                             <div className="working ">
                                 <LiaSeedlingSolid className='icon' />
-                                <div className="content">
+                                <div className="content text-start">
                                     <h4>Organic Growing</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus at magni eligendi, quia ut eum doloremque eius debitis iure, nemo suscipit!</p>
                                 </div>
@@ -24,7 +24,7 @@ const WhatWeDo = () => {
                         <div className="col-lg-3 p-0">
                             <div className="working">
                                 <SiOverleaf className='icon' />
-                                <div className="content">
+                                <div className="content text-start">
                                     <h4>Quality Harvesting</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus at magni eligendi, quia ut eum doloremque eius debitis iure, nemo suscipit!</p>
                                 </div>

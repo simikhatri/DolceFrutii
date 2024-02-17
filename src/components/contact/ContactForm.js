@@ -61,12 +61,12 @@ const ContactForm = () => {
                                         <Form.Control className='input-field' type="email" />
                                     </Form.Group>
                                     <Form.Group className="mb-3">
-                                        <Form.Label className='label'>Street Address</Form.Label>
+                                        <Form.Label className='label'>Street Line 1</Form.Label>
                                         <Form.Control className='input-field' type="email" />
                                     </Form.Group>
                                     <Form.Group className="mb-3">
-                                        <Form.Label className='label'>Apartment No.</Form.Label>
-                                        <Form.Control className='input-field' type="text" />
+                                        <Form.Label className='label'>Street Line 2</Form.Label>
+                                        <Form.Control className='input-field' type="text" placeholder='Apartment No' />
                                     </Form.Group>
                                     <Row>
                                         <Col xs={12} md={4} lg={5}>
@@ -120,12 +120,10 @@ const ContactForm = () => {
                             </Row>
                             <div className='d-flex mt-3'>
                                 <Form.Check aria-label="option 1" className='checkbox' />
-                                I'd like to subscribe to Newsletter <br />
+                                I'd like to subscribe to newsletter and blogs <br />
                                 I understand and agree to the privacy policy
                             </div>
-                            <div className=' mt-4'>
-                                <button className="btn">Submit</button>
-                            </div>
+
                             {/* <div className="formleft">
                                 <h1>Make Contact</h1>
                                 <div className="socialMedia">
@@ -151,6 +149,9 @@ const ContactForm = () => {
                             </div> */}
                         </Col>
                     </Row>
+                    <div className=' mt-4 text-center'>
+                        <button className="btn">Submit</button>
+                    </div>
                 </Container>
             </div>
         </>

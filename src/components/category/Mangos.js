@@ -9,7 +9,7 @@ const Mangos = () => {
     return (
         <div className='mt-4'>
             <h1 className='CatHeading'>Mangos</h1>
-            <div className="row">
+            <div className="row justify-content-center">
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="card">
                         <img src={goldenlady} className="card-img-top" alt="..." />

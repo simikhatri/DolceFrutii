@@ -7,7 +7,7 @@ const Dates = () => {
         <>
             <div>
                 <h1 className='CatHeading'>Dates</h1>
-                <div className="row">
+                <div className="row justify-content-center">
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="card">
                             <img src={category1} className="card-img-top" alt="..." />
@@ -62,7 +62,6 @@ const Dates = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12"></div>
                 </div>
             </div>
         </>

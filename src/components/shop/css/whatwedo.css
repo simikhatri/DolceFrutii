@@ -4,7 +4,7 @@
 }
 
 .wedo h1 {
-    color: #A06701;
+    color: #000000;
     margin-bottom: 4rem;
     font-weight: 600;
 }
@@ -23,8 +23,14 @@
 }
 
 .wedo .working h4 {
-    color: #A06701;
+    color: #000000;
     margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.wedo .working .content p {
+    color: #000000;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 1258px) {}

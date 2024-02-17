@@ -50,19 +50,19 @@ const Footer = () => {
                                         <div>
                                             <div className="socialIcons">
                                                 <Link to="https://www.facebook.com/dolcefruttiUSA" className="iconss">
-                                                    <FaFacebookF className='item mx-1' />
+                                                    <FaFacebookF className='item mx-1' style={{ color: '#1E4297' }} />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <MdEmail className='item mx-2' />
+                                                    <MdEmail className='item mx-2' style={{ color: '#E34133' }} />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <AiFillInstagram className='item mx-2' />
+                                                    <AiFillInstagram className='item mx-2' style={{ color: '#8636A1' }} />
                                                 </Link>
                                                 <Link to="https://www.youtube.com/channel/UCTEsan1pgEHkCacYRwm7NQw" className="iconss">
-                                                    <FaYoutube className='item mx-2' />
+                                                    <FaYoutube className='item mx-2' style={{ color: '#C21A1E' }} />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <IoLogoTiktok className='item mx-2' />
+                                                    <IoLogoTiktok className='item mx-2' style={{ color: '#57556B' }} />
                                                 </Link>
                                             </div>
                                         </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Products</h6>
-                                    <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#F15922', height: 3, color: '#F15922' }} />
+                                    <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
                                     <p>
                                         <Link to='/' className="link">Dates</Link>
                                     </p>
@@ -93,7 +93,7 @@ const Footer = () => {
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Useful links</h6>
-                                    <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#F15922', height: 3, color: '#F15922' }} />
+                                    <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
                                     <p>
                                         <Link to='/' className="link">Home</Link>
                                     </p>
@@ -112,19 +112,29 @@ const Footer = () => {
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Contact</h6>
-                                    <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#F15922', height: 3, color: '#F15922' }} />
-                                    <p className="link"> <MdOutlineEmail /> support@dolcefrutti.com</p>
-                                    <p className="link"> <MdOutlineEmail /> info@dolcefrutti.com</p>
-                                    <p className="link"><MdOutlineEmail /> shop@dolcefrutti.com</p>
-                                    <p className="link"><MdOutlinePhoneInTalk /> 760.786.7786</p>
-                                    <p className="link"><LiaFaxSolid /> 760.786.8786</p>
+                                    <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
+                                    <p>
+                                        <Link to='/' className="link"><MdOutlineEmail /> support@dolcefrutti.com</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link"><MdOutlineEmail /> info@dolcefrutti.com</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link"><MdOutlineEmail /> shop@dolcefrutti.com</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link"><MdOutlinePhoneInTalk /> 760.786.7786</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link"><LiaFaxSolid /> 760.786.8786</Link>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <div className="text-center py-2" style={{ backgroundColor: ' #E1C343', color: "#000000", fontSize: '20px' }}>
-                    2024 All Copyrights Reserved |
+                    2024 All &copy; Copyrights Reserved |
                     <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#000000" }}> Dolce Frutti LLC</Link>
                 </div>
             </footer >

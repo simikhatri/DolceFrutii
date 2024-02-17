@@ -3,7 +3,6 @@
 
 .contact {
   letter-spacing: normal;
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -72,7 +71,7 @@
 .contactForm .btn {
   background-color: black;
   border: 2px solid#000000;
-  color: #E1C343;
+  color: #ffffff;
   border-radius: 10px;
   font-size: 20px;
   font-weight: 600;
@@ -81,8 +80,7 @@
 }
 
 .contactForm .btn:hover {
-  color: #000000;
-  background-color: #E1C343;
+  color: #E1C343;
 }
 
 .contact h1 {
@@ -90,6 +88,7 @@
   font-weight: 600;
   margin-bottom: 2rem;
   color: #ffffff;
+  text-shadow: 0 2px 3px rgba(65, 61, 61, 0.5), 0 4px 7px rgba(0, 0, 0, .5), 0 9px 12px rgba(0, 0, 0, .5);
 }
 
 .contact .contItem {
@@ -102,20 +101,16 @@
   color: #e69300;
 }
 
-.contact .contactContent {
-  font-family: 'Poppins', sans-serif;
-  font-size: 19px;
-}
-
 .contactInfo .heading h5 {
-  color: #A06701;
+  color: #000000;
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0.2rem;
 }
 
 .contactInfo .heading p {
   color: #000000;
+  font-size: 15px;
   margin-bottom: 1rem;
 }
 
@@ -152,7 +147,6 @@
 }
 */
 .socialIcons .iconss {
-  color: #e69300;
   padding: 1rem 0;
   font-size: 1.5rem;
 }
@@ -160,7 +154,7 @@
 .contactForm .label {
   font-weight: 400;
   font-size: 18px;
-  color: #A06701;
+  color: #000000;
 }
 
 .contactForm .label span {
@@ -177,7 +171,7 @@
 
 .contactForm .input-field option {
   background-color: #ECEFF0;
-  color: #A06701;
+  color: #000000;
 }
 
 .contactForm .input-comment {
@@ -188,7 +182,7 @@
 }
 
 .contactForm .checkbox {
-  color: #A06701;
+  color: #000000;
   margin-right: 0.6rem;
 }
 

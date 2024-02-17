@@ -4,25 +4,23 @@
 /* ======Footer CSS======== */
 .footer {
   background-color: rgb(255, 255, 255);
-  color: #A06701;
-  font-family: 'Roboto Condensed', sans-serif;
+  color: #000000;
   border-top: 1px solid #eee;
 
-  
+
 }
 
 .footer .link {
   text-decoration: none;
-  color: #e69300;
-  font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-size: 15px;
 }
 
 .footer .link:hover {
-  color: #F15922;
+  color: #cdb136;
 }
 
-.social .Reviews {
+/* .social .Reviews {
   text-decoration: none;
   font-size: 1.5rem;
   color: #ffffff;
@@ -31,15 +29,17 @@
 .social .Reviews:hover {
   font-size: 1.55rem;
   color: #e69300;
-}
+} */
 
 .footercont .footRight .footerlogo {
   width: 190px;
 }
 
 .footercont .foothead {
-  color: #372302;
+  color: #000000;
   margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .footercont .alllinks {

@@ -71,7 +71,7 @@ const Header = () => {
                             </Link>
                             <ul className="dropdown" id="submenu">
                                 <li>
-                                    <Link className="item" to="#action/3.1">All Products</Link>
+                                    <Link className="item" to="/categories">All Products</Link>
                                 </li>
                             </ul>
                         </li>

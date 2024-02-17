@@ -37,7 +37,7 @@
 
 .landItem .catHeading {
     margin-bottom: 3.5rem;
-    color: #A06701;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -48,14 +48,14 @@
 
 .cat-title .link {
     font-size: 1.19rem;
-    color: #A06701;
+    color: #000000;
     font-weight: 700;
     text-decoration: none;
     margin-top: 1rem;
 }
 
 .cat-title .link:hover {
-    color: #e69300;
+    color: #cdb136;
 }
 
 .cat-image img {
@@ -74,7 +74,7 @@
 }
 
 .blogSwiper .swiperHead {
-    color: #A06701;
+    color: #000000;
     margin-bottom: 3.5rem;
     font-weight: 600;
 }
@@ -117,13 +117,22 @@
 }
 
 .slide .card .card-title {
-    color: #A06701;
+    color: #000000;
+    font-weight: 600;
+}
+
+.slide .card .card-body p {
+    font-size: 15px;
 }
 
 .slide .card .shop {
-    color: #714903;
+    color: #000000;
     text-decoration: none;
     font-weight: 400;
+}
+
+.slide .card .shop:hover {
+    color: #cdb136;
 }
 
 .MoreBlogBtn .btn {
