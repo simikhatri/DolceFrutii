@@ -27,8 +27,8 @@
 
 .category .card .card-title {
     margin-bottom: 0.1rem;
-    font-weight: 500;
-    color: #A06701;
+    font-weight: 600;
+    color: #000000;
 }
 
 .category .card .card-body .icon {
@@ -43,7 +43,7 @@
 }
 
 .category .card .card-body .card-text {
-    color: #A06701;
+    color: #000000;
     font-size: 20px;
     font-weight: 600;
 }
