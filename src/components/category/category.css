@@ -42,6 +42,15 @@
     margin-left: 0.5rem;
 }
 
+.category .card .desclink {
+    text-decoration: none;
+    color: black;
+}
+
+.category .card .desclink:hover {
+    color: black;
+}
+
 .category .card .card-body .card-text {
     color: #000000;
     font-size: 20px;

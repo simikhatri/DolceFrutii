@@ -6,6 +6,7 @@ import Blog from './Pages/Blog'
 import { Routes, Route } from "react-router-dom";
 import Shop from './Pages/Shop';
 import Category from './Pages/Category';
+import Item from './components/description/Item';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/categories" element={<Category />} />
+        <Route path="/description" element={<Item />} />
       </Routes>
       <Footer />
 
