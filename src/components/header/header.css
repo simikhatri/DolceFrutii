@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,24 +10,12 @@
   z-index: 2000;
   left: 0;
   width: 100%;
-  /* padding: 0 1rem; */
 }
 
 .navbar .logo {
   width: 200px;
   height: auto;
 }
-
-/* 
-.loginImg {
-  width: 28px;
-  height: 28px;
-  color: white;
-}
-
-.loginImg:hover {
-  color: #E1C343;
-} */
 
 .loginMenu {
   background-color: rgb(255, 255, 255);
@@ -63,7 +46,7 @@
 
 .navbar .nav-item {
   padding: 0;
-  padding: 0 3px;
+  padding: 0 16px;
 }
 
 .navbar .nav-item:hover {
@@ -74,9 +57,8 @@
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
-  padding: 1.2rem;
+  /* padding: 1.2rem; */
   letter-spacing: normal;
-  font-family: 'Roboto', sans-serif;
 }
 
 .navbar li {
@@ -128,7 +110,7 @@
 
 li:hover ul#submenu {
   opacity: 1;
-  top: 80px;
+  top: 60px;
   visibility: visible;
 }
 

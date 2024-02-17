@@ -49,7 +49,7 @@ const Header = () => {
 
     return (
         <nav className={`navbar navbar-expand-lg ${isScrolled ? 'navbar-scrolled' : ''}`}>
-            <div className="container">
+            <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     <img src={logo} className='logo img-fluid' alt='Dolce frutti' />
                 </Link>
