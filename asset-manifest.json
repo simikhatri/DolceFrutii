@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DolceFrutii/static/css/main.64b573a0.css",
-    "main.js": "/DolceFrutii/static/js/main.dc864218.js",
+    "main.css": "/DolceFrutii/static/css/main.4de5de85.css",
+    "main.js": "/DolceFrutii/static/js/main.b54f7e9f.js",
     "static/media/pic3.jpg": "/DolceFrutii/static/media/pic3.6c1536fc73aeae7d2db7.jpg",
     "static/media/orange fruit collage.jpg": "/DolceFrutii/static/media/orange fruit collage.b1b1fd8a494d5928c44d.jpg",
     "static/media/pic2.jpg": "/DolceFrutii/static/media/pic2.055f92ac4f201e2762d5.jpg",
@@ -24,11 +24,11 @@
     "static/media/Desert Ruby.jpeg": "/DolceFrutii/static/media/Desert Ruby.99a8e2f900e93f7cf3c9.jpeg",
     "static/media/mango.jpg": "/DolceFrutii/static/media/mango.e1e4f80b2b3d536a8904.jpg",
     "index.html": "/DolceFrutii/index.html",
-    "main.64b573a0.css.map": "/DolceFrutii/static/css/main.64b573a0.css.map",
-    "main.dc864218.js.map": "/DolceFrutii/static/js/main.dc864218.js.map"
+    "main.4de5de85.css.map": "/DolceFrutii/static/css/main.4de5de85.css.map",
+    "main.b54f7e9f.js.map": "/DolceFrutii/static/js/main.b54f7e9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.64b573a0.css",
-    "static/js/main.dc864218.js"
+    "static/css/main.4de5de85.css",
+    "static/js/main.b54f7e9f.js"
   ]
 }
