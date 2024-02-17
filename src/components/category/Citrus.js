@@ -14,7 +14,7 @@ const Citrus = () => {
                         <img src={category1} className="card-img-top" alt="..." />
                         <div className="card-body">
                             <span>In Stock</span>
-                            <h5 className="card-title">Minneola tangelos</h5>
+                            <h5 className="card-title">Minneola Tangelos</h5>
                             <div className='mt-2'>
                                 <FaStar className='icon' />
                                 <FaStar className='icon' />
