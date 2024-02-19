@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DolceFrutii/static/css/main.348e19ad.css",
-    "main.js": "/DolceFrutii/static/js/main.c3ac6061.js",
+    "main.css": "/DolceFrutii/static/css/main.b9ae7396.css",
+    "main.js": "/DolceFrutii/static/js/main.a479ce60.js",
     "static/media/logo2.png": "/DolceFrutii/static/media/logo2.d03f9feddaa28649f65e.png",
     "static/media/pic3.jpg": "/DolceFrutii/static/media/pic3.6c1536fc73aeae7d2db7.jpg",
     "static/media/orange fruit collage.jpg": "/DolceFrutii/static/media/orange fruit collage.b1b1fd8a494d5928c44d.jpg",
@@ -17,6 +17,7 @@
     "static/media/fig.jpg": "/DolceFrutii/static/media/fig.5e83101cb3ba49a56311.jpg",
     "static/media/category1.jpg": "/DolceFrutii/static/media/category1.21539ef4c31a753cea0e.jpg",
     "static/media/cm9.jpg": "/DolceFrutii/static/media/cm9.ca669d7c81f4988d96f3.jpg",
+    "static/media/Audio.ogg": "/DolceFrutii/static/media/Audio.dcc17fdd7dcdd8b58abc.ogg",
     "static/media/pomog.jpg": "/DolceFrutii/static/media/pomog.73d8fe31df19f251cfdb.jpg",
     "static/media/keitt.jpeg": "/DolceFrutii/static/media/keitt.0cbc0d7a7dfa2d23d073.jpeg",
     "static/media/mango.jpg": "/DolceFrutii/static/media/mango.e1e4f80b2b3d536a8904.jpg",
@@ -24,11 +25,11 @@
     "static/media/Desert Ruby.jpeg": "/DolceFrutii/static/media/Desert Ruby.44d427bf4d554aba4391.jpeg",
     "static/media/valencia pride.jpg": "/DolceFrutii/static/media/valencia pride.80c170eaf01167ffd810.jpg",
     "index.html": "/DolceFrutii/index.html",
-    "main.348e19ad.css.map": "/DolceFrutii/static/css/main.348e19ad.css.map",
-    "main.c3ac6061.js.map": "/DolceFrutii/static/js/main.c3ac6061.js.map"
+    "main.b9ae7396.css.map": "/DolceFrutii/static/css/main.b9ae7396.css.map",
+    "main.a479ce60.js.map": "/DolceFrutii/static/js/main.a479ce60.js.map"
   },
   "entrypoints": [
-    "static/css/main.348e19ad.css",
-    "static/js/main.c3ac6061.js"
+    "static/css/main.b9ae7396.css",
+    "static/js/main.a479ce60.js"
   ]
 }
