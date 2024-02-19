@@ -11,8 +11,8 @@ const Item = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="leftSection">
-                                <img src={ruby} alt="" />
-                                {/* <Itemslider /> */}
+                                {/* <img src={ruby} alt="" /> */}
+                                <Itemslider />
                             </div>
                         </div>
                         <div className="col-lg-6">
