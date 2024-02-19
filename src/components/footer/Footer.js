@@ -7,11 +7,12 @@ import { IoLeafSharp } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { LiaFaxSolid } from "react-icons/lia";
-import { MdEmail } from "react-icons/md";
-import { FaFacebookF } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaYoutube } from "react-icons/fa6";
-import { IoLogoTiktok } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
+import insta from '../../Assets/images/instagram.png'
+import fb from '../../Assets/images/facebook.png'
+import gmail from '../../Assets/images/gmail.png'
+import youtube from '../../Assets/images/youtube.png'
+import tiktok from '../../Assets/images/tik-tok.png'
 import './footer.css'
 
 const Footer = () => {
@@ -50,19 +51,19 @@ const Footer = () => {
                                         <div>
                                             <div className="socialIcons">
                                                 <Link to="https://www.facebook.com/dolcefruttiUSA" className="iconss">
-                                                    <FaFacebookF className='item mx-1' style={{ color: '#1E4297' }} />
+                                                    <img src={fb} alt="facebook" className='item mx-1' />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <MdEmail className='item mx-2' style={{ color: '#E34133' }} />
+                                                    <img src={gmail} alt="gmail" className='item mx-2' />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <AiFillInstagram className='item mx-2' style={{ color: '#8636A1' }} />
+                                                    <img src={insta} alt="instagram" className='item mx-2' />
                                                 </Link>
                                                 <Link to="https://www.youtube.com/channel/UCTEsan1pgEHkCacYRwm7NQw" className="iconss">
-                                                    <FaYoutube className='item mx-2' style={{ color: '#C21A1E' }} />
+                                                    <img src={youtube} alt="youtube" className='item mx-2' />
                                                 </Link>
                                                 <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <IoLogoTiktok className='item mx-2' style={{ color: '#57556B' }} />
+                                                    <img src={tiktok} alt="tiktok" className='item mx-2' />
                                                 </Link>
                                             </div>
                                         </div>
@@ -124,6 +125,9 @@ const Footer = () => {
                                     </p>
                                     <p>
                                         <Link to='/' className="link"><MdOutlinePhoneInTalk /> 760.786.7786</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link"><FaWhatsapp />  +1 760.600.6401</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link"><LiaFaxSolid /> 760.786.8786</Link>

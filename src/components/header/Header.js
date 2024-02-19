@@ -66,7 +66,7 @@ const Header = () => {
                         <li className="nav-item" onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}>
                             <Link className="nav-link" to="/" >
-                                Shop   {isHovered ? <FaChevronUp className='ms-2' /> : <FaChevronDown className='ms-2' />}
+                                Shop   {isHovered ? <FaChevronUp className='ms-1' /> : <FaChevronDown className='ms-2' />}
 
                             </Link>
                             <ul className="dropdown" id="submenu">
@@ -93,7 +93,7 @@ const Header = () => {
                     </ul>
                     <div className='rightContent'>
                         {isSearchVisible && (
-                            <div className="nav-item search-field">
+                            <div className="search-field">
                                 <input type="text" placeholder="Search" />
                             </div>
                         )}

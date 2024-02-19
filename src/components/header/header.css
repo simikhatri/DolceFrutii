@@ -10,6 +10,7 @@
   z-index: 2000;
   left: 0;
   width: 100%;
+  padding: 0 3rem;
 }
 
 .navbar .logo {
@@ -48,7 +49,11 @@
 
 .navbar .nav-item {
   padding: 0;
-  padding: 0 16px;
+  padding: 0 22px;
+}
+
+.rightContent .search-field:hover {
+  border-bottom: none !important;
 }
 
 .navbar .nav-item:hover {
@@ -89,7 +94,7 @@
 
 .rightContent li {
   list-style: none;
-  padding: 0 0.5rem 0rem 1rem;
+  padding: 0 0.5rem 0rem 0.1rem;
 }
 
 #submenu li {
@@ -139,7 +144,7 @@ li:hover ul#submenu {
 }
 
 
-@media only screen and (max-width: 360px) {
+/* @media only screen and (max-width: 360px) {
   .contleft .contheading {
     font-size: 1.6rem;
     font-weight: 800;
@@ -251,7 +256,7 @@ li:hover ul#submenu {
   .navbar-toggler .menu-icon {
     font-size: 1.5rem;
   }
-}
+} */
 
 /* 
 @keyframes slidUp {

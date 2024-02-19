@@ -3,6 +3,7 @@ import './item.css'
 import Itemslider from './Itemslider'
 import { FaStar } from "react-icons/fa";
 import FootContact from '../footer/FootContact'
+import Reviews from './Reviews';
 
 
 const Item = () => {
@@ -58,6 +59,7 @@ const Item = () => {
                     </div>
                 </div>
             </div>
+            <Reviews/>
             <FootContact />
         </>
     )

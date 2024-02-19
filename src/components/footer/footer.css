@@ -20,17 +20,6 @@
   color: #cdb136;
 }
 
-/* .social .Reviews {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: #ffffff;
-}
-
-.social .Reviews:hover {
-  font-size: 1.55rem;
-  color: #e69300;
-} */
-
 .footercont .footRight .footerlogo {
   width: 190px;
 }
@@ -49,12 +38,9 @@
 .footercont .alllinks p {
   margin-bottom: 0;
 }
-
-.socialIcons .iconss:hover {
-  color: #fc9e07;
+.footRight .socialIcons .item{
   cursor: pointer;
 }
-
 @media only screen and (max-width: 1142px) {
   .footer .link {
     font-size: 14px;

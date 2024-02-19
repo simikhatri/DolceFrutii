@@ -1,0 +1,9 @@
+.Reviews {
+    background-color: #ECEFF0;
+}
+
+.Reviews .Headreview {
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
