@@ -10,8 +10,8 @@ const FootContact = () => {
           <div className="row">
             <div className="col-lg-6 p-0">
               <div className="newsletter">
-                <h2>Newsletters & Blogs</h2>
-                <div className='d-flex'>
+                <h3>Newsletters & Blogs</h3>
+                <div className='d-flex mt-4 pt-2'>
                   <input class="form-control" type="email" placeholder='your email address...' />
                   <button className='btn'>Subscribe</button>
                 </div>
@@ -19,8 +19,8 @@ const FootContact = () => {
             </div>
             <div className="col-lg-6 p-0">
               <div className="newsletter">
-                <h2>For info, support, inquiries, or feedback</h2>
-                <div>
+                <h3>For info, support, inquiries, or feedback</h3>
+                <div className='mt-4 pt-3'>
                   <Link to="/contact" className='contactlink'>Contact us</Link>
                 </div>
               </div>

@@ -147,12 +147,12 @@
 }
 
 .MoreBlogBtn .btn:hover {
-      color: #E1C343;
+    color: #E1C343;
 }
 
 .shopcontact {
     text-align: center;
-    color: #714903;
+    color: #000000;
     font-weight: 600;
     margin-bottom: 3rem;
 }

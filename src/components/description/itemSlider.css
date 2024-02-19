@@ -1,0 +1,4 @@
+.custom-image-gallery .image-gallery-image {
+    border-radius: 10px;
+    object-fit: cover;
+}
