@@ -111,7 +111,7 @@ const Header = () => {
                                         {/* <img src={login} alt="" className='loginImg' /> */}
                                     </Link>
                                     {loginHovered && (
-                                        <ul className="loginMenu position-absolute">
+                                        <ul className="loginMenu">
                                             <li className='mb-3'>
                                                 <Link className="item" to="#action/3.1">Login</Link>
                                             </li>

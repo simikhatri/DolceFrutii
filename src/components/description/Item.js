@@ -1,7 +1,9 @@
 import React from 'react'
-import ruby from '../../Assets/images/Desert Ruby.jpeg'
 import './item.css'
 import Itemslider from './Itemslider'
+import { FaStar } from "react-icons/fa";
+import FootContact from '../footer/FootContact'
+
 
 const Item = () => {
     return (
@@ -23,7 +25,7 @@ const Item = () => {
                                 <div className='quantity'>Unit Quantity: 10 Lbs</div>
                                 <div className="poundbtn">
                                     <button className='btn me-2'>5 Lbs</button>
-                                    <button className='btn me-2'>10 Lbs</button>
+                                    <button className='btn me-2 selected'>10 Lbs</button>
                                     <button className='btn'>15 Lbs</button>
                                 </div>
                                 <div className="cartbtn">
@@ -32,7 +34,19 @@ const Item = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6"></div>
+                        <div className="col-lg-6">
+                            <div className="productReview">
+                                <h1>4.8</h1>
+                                <div>
+                                    <FaStar className='icon' />
+                                    <FaStar className='icon' />
+                                    <FaStar className='icon' />
+                                    <FaStar className='icon' />
+                                    <FaStar className='icon' />
+                                </div>
+                                <div className='mt-1 ms-1'>1321 Reviews</div>
+                            </div>
+                        </div>
                         <div className="col-lg-6">
                             <div className='moreContent'>
                                 <h4>Contents</h4>
@@ -44,6 +58,7 @@ const Item = () => {
                     </div>
                 </div>
             </div>
+            <FootContact />
         </>
     )
 }
