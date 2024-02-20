@@ -77,7 +77,7 @@ const Header = () => {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/blog">
-                                Blog
+                                Blogs
                             </Link>
                         </li>
                         <li className="nav-item">

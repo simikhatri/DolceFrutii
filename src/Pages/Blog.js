@@ -6,6 +6,7 @@ import figs from "../Assets/images/fig.jpg"
 import mango from '../Assets/images/mango.jpg'
 import '../components/blog/blog.css'
 import FootContact from '../components/footer/FootContact'
+import LatestPost from '../components/blog/LatestPost'
 
 const Blog = () => {
     const offeringsRef = useRef(null);
@@ -26,8 +27,9 @@ const Blog = () => {
     }, []);
     return (
         <>
+            <LatestPost />
             <div className="blog" ref={offeringsRef}>
-                <h1 className="blogHeading">Blog</h1>
+                <h1 className="blogHeading">Blogs</h1>
                 <div className="container">
                     <div className="blogitem">
                         <div className="row">

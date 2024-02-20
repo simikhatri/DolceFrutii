@@ -4,9 +4,11 @@ import Itemslider from './Itemslider'
 import { FaStar } from "react-icons/fa";
 import FootContact from '../footer/FootContact'
 import Reviews from './Reviews';
+import { Link } from 'react-router-dom';
 
 
 const Item = () => {
+
     return (
         <>
             <div className="description">
@@ -30,7 +32,7 @@ const Item = () => {
                                     <button className='btn'>15 Lbs</button>
                                 </div>
                                 <div className="cartbtn">
-                                    <button className='btn me-3'>Add to Cart</button>
+                                    <Link to='/checkout' className='btn me-3'>Add to Cart</Link>
                                     <button className='btn'>Save for Later</button>
                                 </div>
                             </div>
@@ -59,7 +61,7 @@ const Item = () => {
                     </div>
                 </div>
             </div>
-            <Reviews/>
+            <Reviews />
             <FootContact />
         </>
     )

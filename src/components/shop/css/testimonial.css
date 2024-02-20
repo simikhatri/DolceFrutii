@@ -38,11 +38,17 @@
 
 }
 
-.testimonials .card img {
+.testimonials .card .box {
     margin-top: 1.5rem;
     border-radius: 50%;
     height: 80px;
     width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECEFF0;
+    font-weight: 600;
+    font-size: 1.7rem;
 }
 
 .testimonials .card .card-body {

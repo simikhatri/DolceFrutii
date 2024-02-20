@@ -90,7 +90,7 @@ const Reviews = () => {
                                     </div>
                                     <div className="col-9">
                                         <div className='ps-3'>
-                                            <h5 className="card-title">fahmi Nogura</h5>
+                                            <h5 className="card-title">Fahmi Nogura</h5>
                                             <div>
                                                 <FaStar className='icon' />
                                                 <FaStar className='icon' />
