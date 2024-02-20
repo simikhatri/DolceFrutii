@@ -53,7 +53,7 @@ const Testimonial = () => {
                                 <img src="https://www.shutterstock.com/image-photo/profile-picture-smiling-successful-young-260nw-2040223583.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Sabiha Ghani<RiVerifiedBadgeFill className='ms-2 mb-1' /></h5>
-                                    <p className='date'>1/30/2024</p>
+                                    <p className='date'>1/30/2023</p>
                                     <p className='review'><FaStar />
                                         <FaStar />
                                         <FaStar />

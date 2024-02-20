@@ -67,10 +67,6 @@ const Footer = () => {
                                                 </Link>
                                             </div>
                                         </div>
-                                        {/* <div className="footcard">
-                                            <h3>California Grown Organic Exotic Dates</h3>
-                                            <button className='btn'>SHOP NOW</button>
-                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
