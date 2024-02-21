@@ -76,35 +76,38 @@ const Footer = () => {
                                         <Link to='/' className="link">Dates</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Pomegranates</Link>
+                                        <Link to='/' className="link">Citrus</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Citrus</Link>
+                                        <Link to='/' className="link">Mangos</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link">Figs</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Mangos</Link>
+                                        <Link to='/' className="link">Pomegranates</Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Useful links</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
                                     <p>
-                                        <Link to='/' className="link">Home</Link>
+                                        <Link to='/' className="link">About</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">How it works</Link>
+                                        <Link to='/' className="link">Shop</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Offerings</Link>
+                                        <Link to='/categories' className="link">All Products</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link">Blogs</Link>
+                                    </p>
+                                    <p>
+                                        <Link to='/' className="link">Testimonials</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link">Contact Us</Link>
-                                    </p>
-                                    <p>
-                                        <Link to='/' className="link">Sign In</Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
