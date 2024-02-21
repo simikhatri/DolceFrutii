@@ -7,6 +7,8 @@ import { RiMenu3Line } from "react-icons/ri";
 import { FaChevronDown } from "react-icons/fa";
 import { BsPersonFillLock } from "react-icons/bs";
 import { FaChevronUp } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import './header.css'
 
 const Header = () => {
@@ -101,6 +103,16 @@ const Header = () => {
                             <div className='text-center px-2'>
                                 <Link className="nav-link" to="/">
                                     <IoSearchSharp className='icon' onClick={handleSearchToggle} />
+                                </Link>
+                            </div>
+                            <div className='text-center px-2'>
+                                <Link className="nav-link" to="/">
+                                    <FaFacebookF className='icon' />
+                                </Link>
+                            </div>
+                            <div className='text-center px-2'>
+                                <Link className="nav-link" to="/">
+                                    <FaInstagram className='icon' />
                                 </Link>
                             </div>
                             <div className='text-center px-2'>

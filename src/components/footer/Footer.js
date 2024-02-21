@@ -10,7 +10,6 @@ import { LiaFaxSolid } from "react-icons/lia";
 import { FaWhatsapp } from "react-icons/fa";
 import insta from '../../Assets/images/instagram.png'
 import fb from '../../Assets/images/facebook.png'
-import gmail from '../../Assets/images/gmail.png'
 import youtube from '../../Assets/images/youtube.png'
 import tiktok from '../../Assets/images/tik-tok.png'
 import './footer.css'
@@ -48,25 +47,6 @@ const Footer = () => {
                                 <div className="col-lg-3 col-md-3 mb-3">
                                     <div className="footRight">
                                         <img className='footerlogo' src={logo} alt="" />
-                                        <div>
-                                            <div className="socialIcons">
-                                                <Link to="https://www.facebook.com/dolcefruttiUSA" className="iconss">
-                                                    <img src={fb} alt="facebook" className='item mx-1' />
-                                                </Link>
-                                                <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <img src={gmail} alt="gmail" className='item mx-2' />
-                                                </Link>
-                                                <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <img src={insta} alt="instagram" className='item mx-2' />
-                                                </Link>
-                                                <Link to="https://www.youtube.com/channel/UCTEsan1pgEHkCacYRwm7NQw" className="iconss">
-                                                    <img src={youtube} alt="youtube" className='item mx-2' />
-                                                </Link>
-                                                <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
-                                                    <img src={tiktok} alt="tiktok" className='item mx-2' />
-                                                </Link>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
@@ -109,6 +89,9 @@ const Footer = () => {
                                     <p>
                                         <Link to='/' className="link">Contact Us</Link>
                                     </p>
+                                    <p>
+                                        <Link to='/PrivacyPolicy' className="link">Privacy & Policy</Link>
+                                    </p>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Contact</h6>
@@ -126,7 +109,7 @@ const Footer = () => {
                                         <Link to='/' className="link"><MdOutlinePhoneInTalk /> 760.786.7786</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link"><FaWhatsapp />  +1 760.600.6401</Link>
+                                        <Link to='/' className="link"><FaWhatsapp /> 760.600.6401</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link"><LiaFaxSolid /> 760.786.8786</Link>
@@ -136,7 +119,25 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <div className="text-center py-2" style={{ backgroundColor: ' #E1C343', color: "#000000", fontSize: '20px' }}>
+                <div className="text-center py-4">
+                    <div className="left-line"><hr /></div>
+                    <div className="right-line"><hr /></div>
+                    <div className="socialIcons">
+                        <Link to="https://www.facebook.com/dolcefruttiUSA" className="iconss">
+                            <img src={fb} alt="facebook" className='item' />
+                        </Link>
+                        <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
+                            <img src={insta} alt="instagram" className='item' />
+                        </Link>
+                        <Link to="https://www.youtube.com/channel/UCTEsan1pgEHkCacYRwm7NQw" className="iconss">
+                            <img src={youtube} alt="youtube" className='item' />
+                        </Link>
+                        <Link to="https://www.instagram.com/dolcefruttiusa/" className="iconss">
+                            <img src={tiktok} alt="tiktok" className='item' />
+                        </Link>
+                    </div>
+                </div>
+                <div className="text-center py-2" style={{ color: "#000000", fontSize: '20px' }}>
                     All &copy; 2024 |
                     <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#000000" }}> Dolce Frutti LLC</Link>
                 </div>

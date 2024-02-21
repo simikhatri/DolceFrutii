@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './addtocart.css'
-import pic from '../../Assets/images/mango.jpg'
+import pic1 from '../../Assets/images/mango.jpg'
+import pic2 from '../../Assets/images/cm9.jpg'
+import pic3 from '../../Assets/images/pomog.jpg'
 import { FaPlus } from "react-icons/fa";
 import { TiMinus } from "react-icons/ti";
 import { BiSolidTrash } from "react-icons/bi";
@@ -26,19 +28,21 @@ const AddtoCart = () => {
         <>
             <div className="addCart">
                 <div className="container">
+                    <h3>Delivery Information</h3>
+
                     <div className="row">
                         <div className="col-lg-8">
-                            <h3>There are {counter} items in your cart</h3>
-                            <div className="detail mt-4">
+                            <h4>Item 1 of 3:</h4>
+                            <div className="detail mb-4">
                                 <div className="row">
                                     <div className="col-lg-3">
-                                        <img src={pic} alt="" />
+                                        <img src={pic1} alt="" />
                                     </div>
                                     <div className="col-lg-6">
+                                        <span>Mangos</span>
                                         <h3>Minneola Tangelos</h3>
-                                        <span>Ships in 3 days</span>
+                                        <span>11 Lbs / Pack</span>
                                         <h2>$36.00</h2>
-                                        <div className='quantity'>Mangos . Order Qty: 10 Lbs</div>
                                     </div>
                                     <div className="col-lg-3">
                                         <table className="table table-bordered text-center">
@@ -53,13 +57,79 @@ const AddtoCart = () => {
                                         <div> <h4 className='mt-3'>Total: ${total.toFixed(2)}</h4> </div>
                                         <button className='btn'><BiSolidTrash className='mb-1 me-1' />Delete</button>
                                     </div>
+                                    <div className='mt-4'>
+                                        <h4>Shipping and Handling Service</h4>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                            <div className='mt-4'>
-                                <h4>Shipping and Handling Service</h4>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
-                                </select>
+                            <h4>Item 2 of 3:</h4>
+                            <div className="detail mb-4">
+                                <div className="row">
+                                    <div className="col-lg-3">
+                                        <img src={pic2} alt="" />
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <span>Dates</span>
+                                        <h3>Yellow Barhi</h3>
+                                        <span>11 Lbs / Pack</span>
+                                        <h2>$110.00</h2>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <table className="table table-bordered text-center">
+                                            <tbody>
+                                                <tr>
+                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' /></td>
+                                                    <td>{counter}</td>
+                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' /></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div> <h4 className='mt-3'>Total: ${total.toFixed(2)}</h4> </div>
+                                        <button className='btn'><BiSolidTrash className='mb-1 me-1' />Delete</button>
+                                    </div>
+                                    <div className='mt-4'>
+                                        <h4>Shipping and Handling Service</h4>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4>Item 3 of 3:</h4>
+                            <div className="detail mb-4">
+                                <div className="row">
+                                    <div className="col-lg-3">
+                                        <img src={pic3} alt="" />
+                                    </div>
+                                    <div className="col-lg-6">
+                                        <span>Pomegarante</span>
+                                        <h3>Eversweet Pomegarante</h3>
+                                        <span>11 Lbs / Pack</span>
+                                        <h2>$36.00</h2>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <table className="table table-bordered text-center">
+                                            <tbody>
+                                                <tr>
+                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' /></td>
+                                                    <td>{counter}</td>
+                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' /></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div> <h4 className='mt-3'>Total: ${total.toFixed(2)}</h4> </div>
+                                        <button className='btn'><BiSolidTrash className='mb-1 me-1' />Delete</button>
+                                    </div>
+                                    <div className='mt-4'>
+                                        <h4>Shipping and Handling Service</h4>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 p-0">

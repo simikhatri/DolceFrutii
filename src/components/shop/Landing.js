@@ -1,9 +1,5 @@
 import React from 'react'
 import './css/Shop.css'
-import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/css';
-import 'swiper/css/grid';
-import { Autoplay } from 'swiper/modules';
 import { Link } from 'react-router-dom'
 import dates from '../../Assets/images/dates.jpg'
 import pome from '../../Assets/images/pomegranate.jpg'
@@ -18,7 +14,7 @@ const Landing = () => {
         <div className="container">
           <div className="landItem">
             <h1 className='catHeading'>Shop</h1>
-            <Swiper className='Swiper'
+            {/* <Swiper className='Swiper'
               slidesPerView={3}
               breakpoints={{
                 900: { slidesPerView: 4 },
@@ -103,9 +99,9 @@ const Landing = () => {
                   </div>
                 </div>
               </SwiperSlide>
-            </Swiper>
-            {/* <div className="row">
-              <div className="col-lg-4 col-md-4 p-0" >
+            </Swiper> */}
+            <div className="row justify-content-between">
+              <div className="col-lg-2 col-md-4 p-0" >
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
@@ -119,36 +115,7 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 p-0" >
-                <div className="landContent text-center">
-                  <div className="card">
-                    <div className="cat-image">
-                      <Link to="/" className="link-category_product">
-                        <img src={pome} alt="" className="img-fluid" />
-                      </Link>
-                    </div>
-                    <div className="cat-title">
-                      <Link to="/" className='link'>Pomegranates</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-4 p-0" >
-                <div className="landContent text-center">
-                  <div className="card">
-                    <div className="cat-image">
-                      <Link to="/" className="link-category_product">
-                        <img src={fig} alt="" className="img-fluid" />
-                      </Link>
-                    </div>
-                    <div className="cat-title">
-                      <Link to="/" className='link'>Figs</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-2 p-0" ></div>
-              <div className="col-lg-4 col-md-4 p-0" >
+              <div className="col-lg-2 col-md-4 p-0" >
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
@@ -162,7 +129,7 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 p-0" >
+              <div className="col-lg-2 col-md-4 p-0" >
                 <div className="landContent text-center">
                   <div className="card">
                     <div className="cat-image">
@@ -176,8 +143,35 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-2 p-0" ></div>
-            </div> */}
+              <div className="col-lg-2 col-md-4 p-0" >
+                <div className="landContent text-center">
+                  <div className="card">
+                    <div className="cat-image">
+                      <Link to="/" className="link-category_product">
+                        <img src={fig} alt="" className="img-fluid" />
+                      </Link>
+                    </div>
+                    <div className="cat-title">
+                      <Link to="/" className='link'>Figs</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2 col-md-4 p-0" >
+                <div className="landContent text-center">
+                  <div className="card">
+                    <div className="cat-image">
+                      <Link to="/" className="link-category_product">
+                        <img src={pome} alt="" className="img-fluid" />
+                      </Link>
+                    </div>
+                    <div className="cat-title">
+                      <Link to="/" className='link'>Pomegranates</Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

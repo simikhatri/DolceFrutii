@@ -2,6 +2,11 @@
     padding: 2rem 0;
 }
 
+.newsletter h3 {
+    font-weight: 600;
+}
+
+
 .newsletter .form-control {
     border: none;
     border-radius: 0;

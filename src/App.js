@@ -9,6 +9,7 @@ import Category from './Pages/Category';
 import Item from './components/description/Item';
 import About from './Pages/About'
 import AddtoCart from './components/cart/AddtoCart';
+import Policy from './Pages/Policy';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/categories" element={<Category />} />
         <Route path="/description" element={<Item />} />
         <Route path="/checkout" element={<AddtoCart />} />
+        <Route path="/PrivacyPolicy" element={<Policy />} />
       </Routes>
       <Footer />
 

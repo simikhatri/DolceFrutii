@@ -10,7 +10,7 @@
   z-index: 2000;
   left: 0;
   width: 100%;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
 .navbar .logo {
@@ -49,7 +49,7 @@
 
 .navbar .nav-item {
   padding: 0;
-  padding: 0 22px;
+  padding: 0 20px;
 }
 
 .rightContent .search-field:hover {
@@ -63,8 +63,7 @@
 .navbar .nav-item .nav-link {
   color: #ffffff;
   font-size: 18px;
-  font-weight: 500;
-  /* padding: 1.2rem; */
+  font-weight: 600;
   letter-spacing: normal;
 }
 

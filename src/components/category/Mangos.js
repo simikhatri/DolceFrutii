@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Mangos = () => {
     return (
-        <div className='mt-4'>
+        <div className='mt-4 categoryItems'>
             <h1 className='CatHeading'>Mangos</h1>
             <div className="row justify-content-center">
                 <div className="col-lg-3 col-md-6 col-sm-12">

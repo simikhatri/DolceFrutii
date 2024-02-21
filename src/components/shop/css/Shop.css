@@ -1,41 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-/* .shopContent {
-    padding: 4rem 3rem;
-    background-color: rgba(226, 205, 174, 0.19);
-    font-family: Poppins, sans-serif;
-}
-
-.baanerImg {
-    width: 400px;
-}
-
-.bannerRight {
-    text-align: right;
-}
-
-.shopContent .shopTitle {
-    font-size: 36px;
-    color: #e69300;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 2rem;
-}
-
-.shopContent .shopdesc {
-    font-size: 16px;
-    color: #766251;
-    font-weight: 400;
-    font-style: normal;
-} */
-
 /*=============== langing page css ==================*/
 
 .landing {
-    padding: 5rem 4rem;
+    padding: 5rem 1rem;
 }
 
-.landItem .catHeading {
+.landing .catHeading {
     margin-bottom: 3.5rem;
     color: #000000;
     font-weight: 600;
@@ -43,7 +13,6 @@
 
 .landing .landContent .card {
     border: none;
-    padding: 10px;
 }
 
 .cat-title .link {
@@ -59,8 +28,8 @@
 }
 
 .cat-image img {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     margin-bottom: 1rem;
     border: 10px solid #ffffff;

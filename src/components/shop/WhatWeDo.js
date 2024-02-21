@@ -10,7 +10,7 @@ const WhatWeDo = () => {
         <>
             <div className='wedo'>
                 <div className="container text-center">
-                    <h1>What We Do</h1>
+                    <h1>About Us</h1>
                     <div className="row">
                         <div className="col-lg-3 p-0">
                             <div className="working ">
@@ -33,7 +33,7 @@ const WhatWeDo = () => {
                         <div className="col-lg-3 p-0">
                             <div className="working">
                                 <TfiPackage className='icon' />
-                                <div className="content">
+                                <div className="content text-start">
                                     <h4>Fresh Packing</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus at magni eligendi, quia ut eum doloremque eius debitis iure, nemo suscipit!</p>
                                 </div>
@@ -42,7 +42,7 @@ const WhatWeDo = () => {
                         <div className="col-lg-3 p-0">
                             <div className="working">
                                 <FiTruck className='icon' />
-                                <div className="content">
+                                <div className="content text-start">
                                     <h4>Shipping & Delivery</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus at magni eligendi, quia ut eum doloremque eius debitis iure, nemo suscipit!</p>
                                 </div>

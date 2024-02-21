@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Citrus = () => {
     return (
 
-        <div className='mt-4'>
+        <div className='mt-4 categoryItems'>
             <h1 className='CatHeading'>Citrus</h1>
             <div className="row justify-content-center">
                 <div className="col-lg-3 col-md-6 col-sm-12">
