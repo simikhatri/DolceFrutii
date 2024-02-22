@@ -1,0 +1,93 @@
+.login {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    background-image: url('../../Assets/images/pic4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innercontent {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+}
+
+.login .innercontent .btn {
+    background-color: #E1C343;
+    color: black;
+    border: none;
+    font-size: 20;
+    font-weight: 600;
+    padding: 0.48rem 1.2rem;
+    border-radius: 20px;
+}
+
+.innercontent .phinput {
+    border-radius: 20px;
+}
+
+.innercontent .form-control {
+    border: none;
+    border-bottom: 3px solid#E1C343;
+}
+
+.innercontent .form-control:focus {
+    box-shadow: none;
+}
+
+.innercontent h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.orText {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.pforgot {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.pforgot:hover {
+    color: white;
+}
+
+.Signbtn {
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-size: 20;
+    margin-bottom: 1rem;
+}
+
+.Signbtn:hover {
+    color: #E1C343;
+}
+
+.SignUp {
+    color: white;
+}
+
+.SignUp:hover {
+    color: white;
+}

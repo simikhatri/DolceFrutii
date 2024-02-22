@@ -10,7 +10,7 @@
 }
 
 .testimonials .card {
-    width: 24rem;
+    /* width: 24rem; */
     border-radius: 3px;
     border-color: rgb(211, 211, 211);
     margin-bottom: 0.6rem;
@@ -80,6 +80,11 @@
     font-size: 15px;
     font-weight: 500;
     margin-top: 1rem;
+}
+
+.testimonials .card .card-text .audio {
+    margin-top: 1rem;
+    width: 266px;
 }
 
 @media only screen and (max-width: 1150px) {

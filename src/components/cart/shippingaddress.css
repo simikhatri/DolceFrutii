@@ -1,0 +1,44 @@
+/* Shipping section css */
+.shipping {
+    padding: 1rem;
+    background-color: #ECEFF0;
+    border-radius: 10px;
+}
+
+.shipping h4 {
+    font-weight: 600;
+}
+
+.summary .right {
+    text-align: right;
+    font-weight: 600;
+}
+
+.summary {
+    padding: 1rem;
+    background-color: #ECEFF0;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.summary h4 {
+    font-weight: 600;
+}
+
+.payment h5 {
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.payment .btns {
+    width: 45%;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    margin: 1.5rem 0;
+}

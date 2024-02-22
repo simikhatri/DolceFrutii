@@ -6,6 +6,7 @@ import pic3 from '../../Assets/images/pomog.jpg'
 import { FaPlus } from "react-icons/fa";
 import { TiMinus } from "react-icons/ti";
 import { BiSolidTrash } from "react-icons/bi";
+import ShippingAddress from './ShippingAddress'
 
 
 const AddtoCart = () => {
@@ -29,10 +30,9 @@ const AddtoCart = () => {
             <div className="addCart">
                 <div className="container">
                     <h3>Delivery Information</h3>
-
+                    <h4>Item 1 of 3:</h4>
                     <div className="row">
                         <div className="col-lg-8">
-                            <h4>Item 1 of 3:</h4>
                             <div className="detail mb-4">
                                 <div className="row">
                                     <div className="col-lg-3">
@@ -106,7 +106,7 @@ const AddtoCart = () => {
                                     </div>
                                     <div className="col-lg-6">
                                         <span>Pomegarante</span>
-                                        <h3>Eversweet Pomegarante</h3>
+                                        <h3>Eversweet Pomegranate</h3>
                                         <span>11 Lbs / Pack</span>
                                         <h2>$36.00</h2>
                                     </div>
@@ -132,34 +132,7 @@ const AddtoCart = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 p-0">
-                            <div className="shipping">
-                                <h3>Shipping Address</h3>
-                                <p>No saved addresses</p>
-                                <button className='btn'>Add Address</button>
-                            </div>
-                            <div className="summary mt-4">
-                                <h3>Cart Summary</h3>
-                                <div className="row">
-                                    <div className="col-8">Number of Items</div>
-                                    <div className="col-4 right">{counter}</div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-8">Sub Total</div>
-                                    <div className="col-4 right">${total.toFixed(2)}</div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-8">Shipping & handling fee</div>
-                                    <div className="col-4 right">$19.90</div>
-                                </div>
-                                <hr />
-                                <div className="row">
-                                    <div className="col-8">Total Payable</div>
-                                    <div className="col-4 right">${(total + 19.90).toFixed(2)}</div>
-                                </div>
-                            </div>
-                            <button className='btn' style={{ width: '100%' }}>Checkout</button>
-                        </div>
+                      <ShippingAddress counter={counter} total={total}/>
                     </div>
                 </div>
             </div>

@@ -10,6 +10,8 @@ import Item from './components/description/Item';
 import About from './Pages/About'
 import AddtoCart from './components/cart/AddtoCart';
 import Policy from './Pages/Policy';
+import Login from './components/login/Login';
+import SignUp from './components/signp/SignUp';
 function App() {
   return (
     <>
@@ -23,6 +25,8 @@ function App() {
         <Route path="/description" element={<Item />} />
         <Route path="/checkout" element={<AddtoCart />} />
         <Route path="/PrivacyPolicy" element={<Policy />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
       <Footer />
 

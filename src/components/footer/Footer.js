@@ -1,9 +1,6 @@
 import React from 'react'
-import logo from '../../Assets/images/logo2.png';
+import logo from '../../Assets/images/logo3.png';
 import { Link } from 'react-router-dom'
-import { IoSearchSharp } from "react-icons/io5";
-import { IoIosHeart } from "react-icons/io";
-import { IoLeafSharp } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { LiaFaxSolid } from "react-icons/lia";
@@ -18,28 +15,6 @@ const Footer = () => {
     return (
         <>
             <footer className="footer text-center">
-                {/* Section: Social media */}
-                <div className="social d-none" style={{ backgroundColor: '#A06701' }}>
-                    <div className="container">
-                        <div className="row p-4 text-white justify-content-center" >
-                            <div className="col-lg-4 col-md-6 col-sm-12 SLinks">
-                                <Link to='/' className="Reviews">
-                                    <IoSearchSharp className='mb-1' /> 7+ varieties
-                                </Link>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 SLinks">
-                                <Link to='/' className="Reviews">
-                                    <IoLeafSharp className='mb-1' /> 100% organic
-                                </Link>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 SLinks">
-                                <Link to='/' className="Reviews">
-                                    <IoIosHeart className='mb-1' /> heart healthy
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <section>
                     <div className=" text-md-start footercont">
                         <div className="container">
@@ -72,13 +47,10 @@ const Footer = () => {
                                     <h6 className="fw-bold foothead">Useful links</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
                                     <p>
-                                        <Link to='/' className="link">About</Link>
+                                        <Link to='/' className="link">About Us</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link">Shop</Link>
-                                    </p>
-                                    <p>
-                                        <Link to='/categories' className="link">All Products</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link">Blogs</Link>
@@ -88,9 +60,6 @@ const Footer = () => {
                                     </p>
                                     <p>
                                         <Link to='/' className="link">Contact Us</Link>
-                                    </p>
-                                    <p>
-                                        <Link to='/PrivacyPolicy' className="link">Privacy & Policy</Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
@@ -137,9 +106,11 @@ const Footer = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="text-center py-2" style={{ color: "#000000", fontSize: '20px' }}>
-                    All &copy; 2024 |
-                    <Link to='https://www.dolcefrutti.com/' style={{ textDecoration: 'none', color: "#000000" }}> Dolce Frutti LLC</Link>
+                <div className="btmFooter py-2">
+                    <Link to='/PrivacyPolicy' className='btmlink px-2'>Return & Refund Policy</Link> |
+                    <Link to='/PrivacyPolicy' className='btmlink px-2'>Privacy Policy</Link> |
+                    &nbsp; All &copy; 2024 &nbsp;|
+                    <Link to='https://www.dolcefrutti.com/' className='weblink px-2'> Dolce Frutti LLC</Link>
                 </div>
             </footer >
         </>

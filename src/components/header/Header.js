@@ -62,7 +62,7 @@ const Header = () => {
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <Link className="nav-link" to="/about">
-                                About
+                                About Us
                             </Link>
                         </li>
                         <li className="nav-item" onMouseEnter={handleMouseEnter}
@@ -120,15 +120,14 @@ const Header = () => {
                                     onMouseLeave={handleloginLeave}>
                                     <Link className="nav-link position-relative" to="/" >
                                         <BsPersonFillLock className='icon loginImg' />
-                                        {/* <img src={login} alt="" className='loginImg' /> */}
                                     </Link>
                                     {loginHovered && (
                                         <ul className="loginMenu">
                                             <li className='mb-3'>
-                                                <Link className="item" to="#action/3.1">Login</Link>
+                                                <Link className="item" to="/Login">Login</Link>
                                             </li>
                                             <li>
-                                                <Link className="item" to="#action/3.1">Sign Up</Link>
+                                                <Link className="item" to="/signup">Sign Up</Link>
                                             </li>
                                         </ul>
                                     )}

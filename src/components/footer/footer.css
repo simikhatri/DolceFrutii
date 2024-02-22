@@ -12,7 +12,7 @@
 .footer .link {
   text-decoration: none;
   color: #000000;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .footer .link:hover {
@@ -20,13 +20,13 @@
 }
 
 .footercont .footRight .footerlogo {
-  width: 190px;
+  width: 90%;
 }
 
 .footercont .foothead {
   color: #000000;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -59,7 +59,7 @@
   text-align: left;
   position: absolute;
   right: auto;
-  left: 4%;
+  left: 5%;
 }
 
 .right-line {
@@ -67,7 +67,28 @@
   text-align: right;
   position: absolute;
   left: auto;
-  right: 4%;
+  right: 5%;
+}
+
+.btmFooter {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+
+.btmFooter .btmlink {
+  color: #000000;
+  font-weight: normal;
+}
+
+.btmFooter .btmlink:hover {
+  color: #A06701;
+}
+
+
+.btmFooter .weblink {
+  color: #000000;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1142px) {

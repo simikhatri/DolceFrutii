@@ -15,11 +15,11 @@ const Testimonial = () => {
             <div className="testimonials text-center">
                 <h1 className='testHead'>Testimonials</h1>
                 <Swiper className='Swiper'
-                    slidesPerView={3}
+                    slidesPerView={4}
                     breakpoints={{
-                        900: { slidesPerView: 3 },
-                        600: { slidesPerView: 2 },
-                        450: { slidesPerView: 1 },
+                        900: { slidesPerView: 4 },
+                        600: { slidesPerView: 3 },
+                        450: { slidesPerView: 2 },
                         270: { slidesPerView: 1 },
                     }}
                     autoplay={{
@@ -27,7 +27,7 @@ const Testimonial = () => {
                         disableOnInteraction: false,
                     }}
                     modules={[Autoplay]}
-                    spaceBetween={1}>
+                    spaceBetween={15}>
                     <SwiperSlide>
                         <div className="testimonialItem">
                             <div className="card" >
@@ -81,7 +81,7 @@ const Testimonial = () => {
                                         <FaStar />
                                     </p>
                                     <p className="card-text">
-                                        <audio controls>
+                                        <audio controls className='audio'>
                                             <source src={audio} type="audio/ogg" />
                                         </audio>
                                     </p>
