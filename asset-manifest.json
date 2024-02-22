@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DolceFrutii/static/css/main.937caa93.css",
-    "main.js": "/DolceFrutii/static/js/main.94925e5e.js",
-    "static/media/logo2.png": "/DolceFrutii/static/media/logo2.d03f9feddaa28649f65e.png",
+    "main.css": "/DolceFrutii/static/css/main.60e5ff33.css",
+    "main.js": "/DolceFrutii/static/js/main.4d3ff437.js",
     "static/media/pic3.jpg": "/DolceFrutii/static/media/pic3.6c1536fc73aeae7d2db7.jpg",
     "static/media/orange fruit collage.jpg": "/DolceFrutii/static/media/orange fruit collage.b1b1fd8a494d5928c44d.jpg",
     "static/media/pic2.jpg": "/DolceFrutii/static/media/pic2.055f92ac4f201e2762d5.jpg",
     "static/media/marsh ruby blush.jpg": "/DolceFrutii/static/media/marsh ruby blush.c1c862347a9c0c40d0c5.jpg",
     "static/media/pic1.jpg": "/DolceFrutii/static/media/pic1.597ccb102abb744e3da5.jpg",
+    "static/media/pic4.jpg": "/DolceFrutii/static/media/pic4.60c955bdbfb301b6d193.jpg",
     "static/media/pomegranate.jpg": "/DolceFrutii/static/media/pomegranate.3a37107d72ad39a2086f.jpg",
     "static/media/mango fruit collage.jpg": "/DolceFrutii/static/media/mango fruit collage.ca5e33a9d63b461b7324.jpg",
     "static/media/figs.jpg": "/DolceFrutii/static/media/figs.ceacfb14b4faec8ab1d0.jpg",
@@ -24,12 +24,13 @@
     "static/media/Golden Lady.jpeg": "/DolceFrutii/static/media/Golden Lady.d6491fab82fe087fc022.jpeg",
     "static/media/Desert Ruby.jpeg": "/DolceFrutii/static/media/Desert Ruby.44d427bf4d554aba4391.jpeg",
     "static/media/valencia pride.jpg": "/DolceFrutii/static/media/valencia pride.80c170eaf01167ffd810.jpg",
+    "static/media/logo3.png": "/DolceFrutii/static/media/logo3.6f1ee389077417361cf5.png",
     "index.html": "/DolceFrutii/index.html",
-    "main.937caa93.css.map": "/DolceFrutii/static/css/main.937caa93.css.map",
-    "main.94925e5e.js.map": "/DolceFrutii/static/js/main.94925e5e.js.map"
+    "main.60e5ff33.css.map": "/DolceFrutii/static/css/main.60e5ff33.css.map",
+    "main.4d3ff437.js.map": "/DolceFrutii/static/js/main.4d3ff437.js.map"
   },
   "entrypoints": [
-    "static/css/main.937caa93.css",
-    "static/js/main.94925e5e.js"
+    "static/css/main.60e5ff33.css",
+    "static/js/main.4d3ff437.js"
   ]
 }
