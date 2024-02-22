@@ -1,9 +1,13 @@
-.latestPost .carousel .carousel-caption h1 {
+.latestPost {
+    padding: 6rem 0 5rem 0;
+}
+
+.latestPost h1 {
     font-size: 3rem;
-    margin-top: 3rem;
+    margin: 3rem 0 1.5rem 3rem;
     font-weight: 600;
     width: 100%;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, .5), 0 4px 7px rgba(0, 0, 0, .5), 0 9px 12px rgba(0, 0, 0, .5);
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .2), 0 4px 7px rgba(0, 0, 0, .2), 0 9px 12px rgba(0, 0, 0, .2);
 }
 
 /* .carousel .carousel-item img {
@@ -13,7 +17,7 @@
     background-size: cover;
 } */
 
-.latestPost .carousel .carousel-item {
+/* .latestPost .carousel .carousel-item {
     position: relative;
 }
 
@@ -25,8 +29,7 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(rgb(0, 0, 0, 0.8), transparent, rgba(0, 0, 0, 0.8));
-    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
-}
+} */
 
 /* .latestPost .carousel .carousel-caption {
     position: absolute;

@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.innercontent {
+.login .innercontent {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 25px;
     width: 50%;
@@ -35,7 +35,7 @@
     border-radius: 20px;
 }
 
-.innercontent .form-control {
+.login .innercontent .form-control {
     border: none;
     border-bottom: 3px solid#E1C343;
 }
