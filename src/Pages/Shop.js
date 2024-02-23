@@ -6,11 +6,13 @@ import HomeBlog from '../components/shop/HomeBlog'
 import Testimonial from '../components/shop/Testimonial'
 import WhatWeDo from '../components/shop/WhatWeDo'
 import ContactForm from '../components/contact/ContactForm'
+import HeroSection from '../components/heroSection'
 
 const Shop = () => {
     return (
         <div>
-            <Slider />
+            <HeroSection/>
+            {/* <Slider /> */}
             <WhatWeDo />
             {/* <div className="shopContent">
                 <div className="container text-center">

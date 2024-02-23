@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../Assets/images/logo.png';
+import logo from '../../Assets/images/Logo.png';
 import { BsCart4 } from "react-icons/bs";
 import { IoSearchSharp } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri";

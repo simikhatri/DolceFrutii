@@ -7,7 +7,7 @@ const Newletter = () => {
             <div className="newsletter">
                 <h3>Newsletters & Blogs</h3>
                 <div className='d-flex mt-4'>
-                    <input class="form-control" type="email" placeholder='your email address...' />
+                    <input className="form-control" type="email" placeholder='your email address...' />
                     <button className='subscribe'>Subscribe</button>
                 </div>
             </div>

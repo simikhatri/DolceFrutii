@@ -60,7 +60,7 @@ const AddtoCart = () => {
                                     </div>
                                     <div className='mt-4'>
                                         <h4>Shipping and Handling Service</h4>
-                                        <select class="form-select" aria-label="Default select example">
+                                        <select className="form-select" aria-label="Default select example">
                                             <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
                                         </select>
                                     </div>
@@ -93,7 +93,7 @@ const AddtoCart = () => {
                                     </div>
                                     <div className='mt-4'>
                                         <h4>Shipping and Handling Service</h4>
-                                        <select class="form-select" aria-label="Default select example">
+                                        <select className="form-select" aria-label="Default select example">
                                             <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
                                         </select>
                                     </div>
@@ -126,7 +126,7 @@ const AddtoCart = () => {
                                     </div>
                                     <div className='mt-4'>
                                         <h4>Shipping and Handling Service</h4>
-                                        <select class="form-select" aria-label="Default select example">
+                                        <select className="form-select" aria-label="Default select example">
                                             <option selected>USPS Priority Mail - Large Flat Rate Box - $19.90</option>
                                         </select>
                                     </div>
