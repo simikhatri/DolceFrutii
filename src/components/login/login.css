@@ -99,6 +99,9 @@
     color: rgb(206, 205, 205);
 }
 
+.placeholderColor:hover::placeholder {
+    color: transparent;
+}
 
 /* 
 .emailfields .form-control {

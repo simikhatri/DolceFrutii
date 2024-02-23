@@ -1,14 +1,66 @@
 .Testimonial {
-    padding-top: 9.5rem;
+    padding-top: 11rem;
+    padding-bottom: 3rem;
 }
 
 .Testimonial h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     color: #000000;
     font-weight: 600;
 }
 
-.Testimonial .testimonialItems .card {
+.Testitem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonialItem {
+    width: 70%;
+}
+
+.Testimonial .testimonialItem .card {
     border: none;
     margin-bottom: 3rem;
+}
+
+/* .Testimonial .testimonialItem .card .box {
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECEFF0;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-left: 0.2rem;
+} */
+
+.Testimonial .card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Testimonial .card .date {
+    font-size: 15px;
+    color: rgb(144, 144, 144);
+    margin-bottom: 0.2rem;
+}
+
+.Testimonial .card .review {
+    color: orange;
+    font-size: 22px;
+}
+
+.Testimonial .card .card-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.Testimonial .card .card-text .audio {
+    margin-top: 1rem;
+    width: 400px;
 }
