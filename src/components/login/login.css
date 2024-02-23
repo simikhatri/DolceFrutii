@@ -15,29 +15,32 @@
 
 .login .innercontent {
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 25px;
-    width: 50%;
+    padding: 15px;
+    width: 35%;
     border-radius: 10px;
     color: white;
 }
 
 .login .innercontent .btn {
-    background-color: #E1C343;
-    color: black;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border: none;
     font-size: 20;
     font-weight: 600;
-    padding: 0.48rem 1.2rem;
+    padding: 0.48rem 1rem;
     border-radius: 20px;
+    width: 100%;
 }
 
-.innercontent .phinput {
-    border-radius: 20px;
+.login .innercontent .btn:hover {
+    color: #E1C343;
 }
+
 
 .login .innercontent .form-control {
     border: none;
     border-bottom: 3px solid#E1C343;
+    border-radius: 20px;
 }
 
 .innercontent .form-control:focus {
@@ -91,3 +94,13 @@
 .SignUp:hover {
     color: white;
 }
+
+.placeholderColor::placeholder {
+    color: rgb(206, 205, 205);
+}
+
+
+/* 
+.emailfields .form-control {
+    width: 55%;
+} */

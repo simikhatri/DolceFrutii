@@ -1,3 +1,23 @@
 .about {
-    padding-top: 8rem;
+    padding-top: 9.5rem;
+}
+
+.about h1 {
+    margin-bottom: 2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.about .whatdo {
+    margin-top: 4rem;
+}
+
+.about .whatdo .Section {
+    width: 75%;
+    margin: 3rem 0;
+    text-align: justify;
+}
+
+.about .whatdo .Section h3 {
+    font-weight: 600;
 }

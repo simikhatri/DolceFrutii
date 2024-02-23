@@ -12,6 +12,7 @@ import AddtoCart from './components/cart/AddtoCart';
 import Policy from './Pages/Policy';
 import Login from './components/login/Login';
 import SignUp from './components/signp/SignUp';
+import Testimonials from './Pages/Testimonials';
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/categories" element={<Category />} />
         <Route path="/description" element={<Item />} />

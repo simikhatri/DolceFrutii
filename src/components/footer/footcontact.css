@@ -21,11 +21,11 @@
     border-radius: 0;
     box-shadow: none;
     background-color: white;
-    height: 40px;
+    height: 45px;
 }
 
 .footerTop .newsletter .btn {
-    height: 39.9px;
+    height: 45px;
     padding: 7px 40px;
     background-color: #000000;
     color: #EDECEC;
@@ -37,11 +37,11 @@
 }
 
 .footerTop .newsletter .contactlink {
-    padding: 9px 40px;
+    padding: 15px 40px;
     background-color: #000000;
     text-decoration: none;
     color: #EDECEC;
-    border-radius: 10px;
+    border-radius: 10px 30px;
     font-size: 19px;
-
+    font-weight: 600;
 }

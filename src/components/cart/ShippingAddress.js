@@ -72,8 +72,11 @@ const ShippingAddress = () => {
                     <div className="payment mt-4">
                         <h5>Select a Payment Option</h5>
                         <div className='d-flex justify-content-evenly'>
-                            <button className='btns' onClick={handlePaymentOptionClick}>Credit/Dedit Card</button>
-                            <button className='btns'>PayPal</button>
+                            <button className='btns'
+                                onClick={handlePaymentOptionClick}
+                                style={{ backgroundColor: '#004AAD' }}>Credit/Dedit Card</button>
+                            <button className='btns'
+                                style={{ backgroundColor: '#8C52FF' }}>PayPal</button>
                         </div>
                         {showInput && (
                             <div className="mb-3">
@@ -81,7 +84,7 @@ const ShippingAddress = () => {
                             </div>
                         )}
                     </div>
-                    <button className='btn' style={{ width: '100%' }}>Checkout</button>
+                    <button className='btn' style={{ width: '100%', backgroundColor: '#00BF63' }}>Checkout</button>
                 </div>
 
             </div>

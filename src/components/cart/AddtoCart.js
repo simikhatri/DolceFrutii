@@ -48,14 +48,15 @@ const AddtoCart = () => {
                                         <table className="table table-bordered text-center">
                                             <tbody>
                                                 <tr>
-                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' /></td>
+                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' color='#ff0000' /></td>
                                                     <td>{counter}</td>
-                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' /></td>
+                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' color='#00BF63' /></td>
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <div> <h4 className='mt-3'>Total: ${total.toFixed(2)}</h4> </div>
-                                        <button className='btn'><BiSolidTrash className='mb-1 me-1' />Delete</button>
+                                        <div className='float-end'> <h4 className='mt-3'>Total: ${total.toFixed(2)}</h4>
+                                            <button className='btn'><BiSolidTrash className='mb-1 me-1' />Delete</button>
+                                        </div>
                                     </div>
                                     <div className='mt-4'>
                                         <h4>Shipping and Handling Service</h4>
@@ -81,9 +82,9 @@ const AddtoCart = () => {
                                         <table className="table table-bordered text-center">
                                             <tbody>
                                                 <tr>
-                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' /></td>
+                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' color='#ff0000' /></td>
                                                     <td>{counter}</td>
-                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' /></td>
+                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' color='#00BF63' /></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -114,9 +115,9 @@ const AddtoCart = () => {
                                         <table className="table table-bordered text-center">
                                             <tbody>
                                                 <tr>
-                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' /></td>
+                                                    <td className='btns' onClick={Decrement}><TiMinus className='qicon' color='#ff0000' /></td>
                                                     <td>{counter}</td>
-                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' /></td>
+                                                    <td className='btns' onClick={Increment}><FaPlus className='qicon' color='#00BF63' /></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -132,7 +133,7 @@ const AddtoCart = () => {
                                 </div>
                             </div>
                         </div>
-                      <ShippingAddress counter={counter} total={total}/>
+                        <ShippingAddress counter={counter} total={total} />
                     </div>
                 </div>
             </div>

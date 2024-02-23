@@ -28,38 +28,38 @@ const Footer = () => {
                                     <h6 className="fw-bold foothead">Products</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
                                     <p>
-                                        <Link to='/' className="link">Dates</Link>
+                                        <Link to='/categories' className="link">Dates</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Citrus</Link>
+                                        <Link to='/categories' className="link">Citrus</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Mangos</Link>
+                                        <Link to='/categories' className="link">Mangos</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Figs</Link>
+                                        <Link to='/categories' className="link">Figs</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Pomegranates</Link>
+                                        <Link to='/categories' className="link">Pomegranates</Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
                                     <h6 className="fw-bold foothead">Useful links</h6>
                                     <hr className="mb-1 mt-0 d-inline-block mx-auto" style={{ width: 60, backgroundColor: '#E1C343', height: 3, color: '#E1C343' }} />
                                     <p>
-                                        <Link to='/' className="link">About Us</Link>
+                                        <Link to='/about' className="link">About Us</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link">Shop</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Blogs</Link>
+                                        <Link to='/blog' className="link">Blogs</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Testimonials</Link>
+                                        <Link to='/testimonials' className="link">Testimonials</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link">Contact Us</Link>
+                                        <Link to='/contact' className="link">Contact Us</Link>
                                     </p>
                                 </div>
                                 <div className="col-lg-3 col-md-3 my-3">
@@ -109,7 +109,7 @@ const Footer = () => {
                 <div className="btmFooter py-2">
                     <Link to='/PrivacyPolicy' className='btmlink px-2'>Return & Refund Policy</Link> |
                     <Link to='/PrivacyPolicy' className='btmlink px-2'>Privacy Policy</Link> |
-                    &nbsp; All &copy; 2024 &nbsp;|
+                    &nbsp; All &copy; 2024
                     <Link to='https://www.dolcefrutti.com/' className='weblink px-2'> Dolce Frutti LLC</Link>
                 </div>
             </footer >

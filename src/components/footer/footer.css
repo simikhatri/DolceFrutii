@@ -20,7 +20,8 @@
 }
 
 .footercont .footRight .footerlogo {
-  width: 90%;
+  width: 250px;
+  padding-left: 0.5rem;
 }
 
 .footercont .foothead {
@@ -49,25 +50,29 @@
   margin: 0.5rem;
 }
 
+.socialIcons .iconss:hover {
+  background-color: #E1C343;
+}
+
 .socialIcons {
   align-items: center;
   text-align: center;
 }
 
 .left-line {
-  width: 34%;
+  width: 36%;
   text-align: left;
   position: absolute;
   right: auto;
-  left: 5%;
+  left: 3%;
 }
 
 .right-line {
-  width: 34%;
+  width: 36%;
   text-align: right;
   position: absolute;
   left: auto;
-  right: 5%;
+  right: 3%;
 }
 
 .btmFooter {

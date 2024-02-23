@@ -2,3 +2,43 @@
     padding-top: 10rem;
     padding-bottom: 5rem;
 }
+
+
+.Signup .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signup .innercontent {
+    padding: 25px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.Signup .form-label span {
+    color: red;
+    font-size: 20px;
+}
+
+.Signup .signbtn {
+    width: 100%;
+    background-color: #E1C343;
+    color: black;
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.eyeicon {
+    position: absolute;
+    right: 5px;
+    top: 45px;
+    border-left: 1px solid grey;
+}
+
+
+.eyeicon .icon {
+    font-size: 22px;
+}
