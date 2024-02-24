@@ -27,7 +27,7 @@ const Testimonial = () => {
                         disableOnInteraction: false,
                     }}
                     modules={[Autoplay]}
-                    spaceBetween={25}>
+                    spaceBetween={35}>
                     <SwiperSlide>
                         <div className="testimonialItem">
                             <div className="card" >

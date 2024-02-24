@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 
-.testimonialItem {
+.Testimonial .testimonialItem {
     width: 70%;
 }
 
