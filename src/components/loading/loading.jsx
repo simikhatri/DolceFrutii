@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../../Assets/images/Logo.png';
+import logo from '../../Assets/images/logo.png';
 import './style.css'
 
 
 const Loading = () => {
   return (
     <div className="loading">
-        <img src={logo}/>
+      <img src={logo} alt='Dolce frutii' />
     </div>
   );
 }
