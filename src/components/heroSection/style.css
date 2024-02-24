@@ -1,0 +1,4 @@
+#mainCarousel .carousel.pointer-event {
+    touch-action: pan-y;
+    height: 100dvh;
+}
