@@ -27,7 +27,6 @@ const HeroSection = () => {
                             <h2 className="mb-2">Ripened on trees and Hand-picked</h2>
                             <div className="btn-shop">
                                 <Link to='/categories' className="button">Shop</Link>
-
                             </div>
                         </div>
 
@@ -54,14 +53,14 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
-                </button>
+                </button> */}
             </div>
         </div>
     )

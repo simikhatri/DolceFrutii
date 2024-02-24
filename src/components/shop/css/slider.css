@@ -1,53 +1,34 @@
-.carousel .carousel-item .img {
+/* .carousel .carousel-item .img {
     height: 100dvh;
     width: 100vw;
     background-position: center;
     background-size: cover;
 }
 
-
-/* .carousel .carousel-item .img1 {
-    background-image: url('../../../images/pic1.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.carousel .carousel-item .img2 {
-    background-image: url('../../../images/pic2.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.carousel .carousel-item .img3 {
-    background-image: url('../../../images/pic3.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .carousel-caption {
-    /* margin-top: 4rem; */
-    font-family: 'Poppins', 'sans-serif';
     text-align: left;
     color: white;
     z-index: 1000;
 }
+
 #mainCarousel .carousel-item {
     height: 100dvh;
 }
+
 #mainCarousel .carousel-inner {
     z-index: 99;
 }
+
 .carousel-caption h1 {
     margin: 1rem 0;
-    font-size: 3.6rem;
+    font-size: 5.6rem;
     font-weight: 600;
     text-transform: capitalize;
     text-shadow: 0 2px 3px rgba(0, 0, 0, .7), 0 4px 7px rgba(0, 0, 0, .7), 0 9px 12px rgba(0, 0, 0, .7);
 }
 
 .carousel-caption h2 {
-    font-size: 2.2rem;
+    font-size: 2.9rem;
     font-weight: 600;
     text-shadow: 0 2px 3px rgba(0, 0, 0, .5), 0 4px 7px rgba(0, 0, 0, .5), 0 9px 12px rgba(0, 0, 0, .5);
 }
@@ -91,8 +72,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 1.25rem 35px 1.25rem 48px;
-    /* background-image: linear-gradient(111deg, #ffffff36 0 0, #fff0 70% 0); */
-}
+} */
 
 @media only screen and (max-width: 1258px) {
     .carousel-caption h1 {
@@ -199,7 +179,6 @@
         height: 480px;
     }
 
-
 }
 
 @media only screen and (max-width: 350px) {
@@ -210,21 +189,4 @@
     .carousel .carousel-item .img {
         height: 450px;
     }
-
 }
-
-/* 
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-} */

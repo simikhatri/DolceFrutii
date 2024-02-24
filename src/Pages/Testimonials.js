@@ -3,6 +3,7 @@ import '../components/testimonials/testimonials.css'
 import { FaStar } from "react-icons/fa";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import audio from '../Assets/audio/Audio.ogg'
+import FootContact from '../components/footer/FootContact'
 
 const Testimonials = () => {
     return (
@@ -161,6 +162,7 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
+            <FootContact />
         </>
     )
 }

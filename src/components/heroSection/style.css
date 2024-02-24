@@ -2,3 +2,155 @@
     touch-action: pan-y;
     height: 100dvh;
 }
+
+.carousel-caption h1 {
+    margin: 1rem 0;
+    font-size: 5.6rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .7), 0 4px 7px rgba(0, 0, 0, .7), 0 9px 12px rgba(0, 0, 0, .7);
+}
+
+.carousel-caption h2 {
+    font-size: 2.9rem;
+    font-weight: 600;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .5), 0 4px 7px rgba(0, 0, 0, .5), 0 9px 12px rgba(0, 0, 0, .5);
+}
+
+.btn-shop {
+    margin-top: 2.5rem;
+}
+
+.btn-shop .button {
+    background-color: #000000;
+    border-radius: 10px 30px;
+    color: #E1C343;
+    text-decoration: none;
+    padding: 16px 60px !important;
+    font-size: 1.8rem;
+}
+
+.btn-shop .button:hover {
+    border: 2px solid #000000;
+    background-color: #E1C343;
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: inherit;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: left;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem 35px 1.25rem 48px;
+}
+
+@media only screen and (max-width: 1258px) {
+    .carousel-caption h1 {
+        font-size: 4.6rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .carousel-caption .button {
+        margin-top: 0.5rem;
+        padding: 0.4rem 5rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 4rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption {
+        padding: 6rem 35px 1.25rem 100px;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .carousel-caption h1 {
+        font-size: 3rem !important;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-caption .button {
+        padding: 0.6rem 6rem;
+        margin-top: 0.2rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .carousel-caption h1 {
+        font-size: 2rem !important;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.25rem !important;
+    }
+
+    .carousel-caption {
+        padding: 6rem 35px 1.25rem 50px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .carousel-caption .button {
+        padding: 0.4rem 4rem;
+        font-size: 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1rem !important;
+    }
+
+    .carousel-caption {
+        padding: 6rem 25px 1.25rem 25px;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .carousel-caption .button {
+        padding: 0.6rem 3rem;
+    }
+
+}

@@ -36,6 +36,12 @@
     clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
 }
 
+.footerTop .newsletter .btn:hover {
+    border: 2px solid #000000;
+    background-color: #E1C343;
+    color: #000000;
+}
+
 .footerTop .newsletter .contactlink {
     padding: 15px 40px;
     background-color: #000000;
@@ -44,4 +50,10 @@
     border-radius: 10px 30px;
     font-size: 19px;
     font-weight: 600;
+}
+
+.footerTop .newsletter .contactlink:hover {
+    border: 2px solid #000000;
+    background-color: #E1C343;
+    color: #000000;
 }

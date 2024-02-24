@@ -33,7 +33,9 @@
 }
 
 .login .innercontent .btn:hover {
-    color: #E1C343;
+    border: 2px solid #000000;
+    background-color: #E1C343;
+    color: #000000;
 }
 
 
@@ -84,7 +86,9 @@
 }
 
 .Signbtn:hover {
-    color: #E1C343;
+    border: 2px solid #000000;
+    background-color: #E1C343;
+    color: #000000;
 }
 
 .SignUp {

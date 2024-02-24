@@ -48,10 +48,10 @@ const About = () => {
                         </div>
                         <div className="Section">
                             <h3>Shipping & Delivery</h3>
-                            <div>Packing fruit for shipping is not like shipping clothes off Amazon. It requires delicate
-                                cushioning to prevent damage that can occur. We typically use cardboard boxes as they are the
-                                easiest to use for shipping. After packages are sealed we refrigerate the packages to maintain
-                                freshness until they are ready to be sent out.</div>
+                            <div>When we ship our products, we do everything possible to make sure you get your product
+                                safe and sound. Our shipping vendor system finds the best vendor to reach your locality at the
+                                most affordable rate for you. Our packaging system makes sure our fruit arrive in the most
+                                pristine condition.</div>
                         </div>
                     </div>
                 </div>

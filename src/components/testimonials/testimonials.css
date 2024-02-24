@@ -17,11 +17,13 @@
 
 .Testimonial .testimonialItem {
     width: 70%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 2.5rem;
 }
 
 .Testimonial .testimonialItem .card {
     border: none;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* .Testimonial .testimonialItem .card .box {

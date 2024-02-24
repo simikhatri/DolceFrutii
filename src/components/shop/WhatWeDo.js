@@ -49,7 +49,9 @@ const WhatWeDo = () => {
                                 <FiTruck className='icon' />
                                 <div className="content text-start">
                                     <h4>Shipping & Delivery</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus at magni eligendi, quia ut eum doloremque eius debitis iure, nemo suscipit!</p>
+                                    <p>When we ship our products, we do everything possible to make sure you get your product
+                                        safe and sound. Our shipping vendor system finds the best vendor to reach...
+                                        <Link to="/about" className='readLink'>Read More</Link></p>
                                 </div>
                             </div>
                         </div>
