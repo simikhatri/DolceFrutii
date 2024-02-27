@@ -47,7 +47,6 @@ const Blog = () => {
                                         <h3 className='itemHead'>Dive into the Date Diary: From Wholesome Recipes to the Fascinating Harvest Tales</h3>
                                     </div>
                                     <div className="blogbtn">
-                                        {/* <Postbtn /> */}
                                         <button className='btn'>Visit</button>
                                     </div>
                                 </div>

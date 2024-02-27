@@ -12,6 +12,15 @@ const WhatWeDo = () => {
             <div className='wedo'>
                 <div className="container text-center">
                     <h1>About Us</h1>
+                    <div className="aboutContent">
+                        <p>
+                            As we have grown as a company, it has become imperative for our customers to understand how
+                            we as a company work. Noticing how difficult it is for customers to buy high-quality fruits at
+                            their local grocery stores, we decided to follow the growing demand for these kinds of products
+                            mailed straight to your door. We found the unique beauty and versatility of growing in the
+                            Coachella Valley of Southern California...  <Link to="/about" className='readLink'>Read More</Link>
+                        </p>
+                    </div>
                     <div className="row">
                         <div className="col-lg-3 p-0">
                             <div className="working ">

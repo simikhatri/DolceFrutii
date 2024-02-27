@@ -38,7 +38,11 @@
 
 /* ========Swipper========Css */
 .blogSwiper {
-    background-color: #ECEFF0;
+    background-image: url("../../../Assets/images/newone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
     padding: 4rem 1rem;
 }
 
