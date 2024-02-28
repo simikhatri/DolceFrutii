@@ -1,7 +1,7 @@
 .login {
     padding-top: 10rem;
     padding-bottom: 5rem;
-    background-image: url('../../Assets/images/pic4.jpg');
+    background-image: url('../../Assets/images/login.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 }
 
 .login .innercontent {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
     width: 35%;
     border-radius: 10px;
