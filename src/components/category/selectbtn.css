@@ -1,0 +1,30 @@
+.SelectBtn {
+    /* margin: 0.25rem 0 0.5rem; */
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: black;
+    padding: 0.2rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.3rem 0;
+    font-size: 18px;
+}
+
+.SelectBtn:hover {
+    background-color: #E1C343;
+    color: black;
+}
+
+.SelectOption ul {
+    background-color: #ECEFF0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.SelectOption li:hover {
+    color: #948025;
+}

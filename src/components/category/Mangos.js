@@ -5,6 +5,8 @@ import goldenlady from '../../Assets/images/Golden Lady.jpeg'
 import keitt from '../../Assets/images/keitt.jpeg'
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import SelectOptionButton from "./SelectBtn"
+
 
 const Mangos = () => {
     return (
@@ -15,80 +17,92 @@ const Mangos = () => {
                     <div className="card">
                         <Link to='/description' className='desclink'>
                             <img src={goldenlady} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <span>In Stock</span>
-                                <h5 className="card-title">Golden Lady</h5>
-                                <div className='mt-2'>
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <span className='review'>45 Reviews</span>
-                                </div>
-                                <p className="card-text">$96</p>
-                            </div>
                         </Link>
+                        <div className="card-body">
+                            <Link to='/description' className='desclink'>
+                                <h5 className="card-title my-1 mt-1">Golden Lady</h5>
+                            </Link>
+                            <p className="card-text">From $96</p>
+                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <div className='mt-2'>
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <span className='review'>45 Reviews</span>
+                            </div>
+                            <span className='stock'>In Stock</span>
+                        </div>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="card">
                         <Link to='/description' className='desclink'>
                             <img src={pride} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <span>In Stock</span>
-                                <h5 className="card-title">Valencia Pride</h5>
-                                <div className='mt-2'>
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <span className='review'>45 Reviews</span>
-                                </div>
-                                <p className="card-text">$96</p>
-                            </div>
                         </Link>
+                        <div className="card-body">
+                            <Link to='/description' className='desclink'>
+                                <h5 className="card-title my-1 mt-1">Valencia Pride</h5>
+                            </Link>
+                            <p className="card-text">From $96</p>
+                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <div className='mt-2'>
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <span className='review'>45 Reviews</span>
+                            </div>
+                            <span className='stock'>In Stock</span>
+                        </div>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="card">
                         <Link to='/description' className='desclink'>
                             <img src={desert} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <span>In Stock</span>
-                                <h5 className="card-title">Desert Ruby</h5>
-                                <div className='mt-2'>
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <span className='review'>45 Reviews</span>
-                                </div>
-                                <p className="card-text">$96</p>
-                            </div>
                         </Link>
+                        <div className="card-body">
+                            <Link to='/description' className='desclink'>
+                                <h5 className="card-title my-1 mt-1">Desert Ruby</h5>
+                            </Link>
+                            <p className="card-text">From $96</p>
+                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <div className='mt-2'>
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <span className='review'>45 Reviews</span>
+                            </div>
+                            <span className='stock'>In Stock</span>
+                        </div>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="card">
                         <Link to='/description' className='desclink'>
                             <img src={keitt} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <span>In Stock</span>
-                                <h5 className="card-title">Keitt</h5>
-                                <div className='mt-2'>
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <FaStar className='icon' />
-                                    <span className='review'>45 Reviews</span>
-                                </div>
-                                <p className="card-text">$96</p>
-                            </div>
                         </Link>
+                        <div className="card-body">
+                            <Link to='/description' className='desclink'>
+                                <h5 className="card-title my-1 mt-1">Keitt</h5>
+                            </Link>
+                            <p className="card-text">From $96</p>
+                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <div className='mt-2'>
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <FaStar className='icon' />
+                                <span className='review'>45 Reviews</span>
+                            </div>
+                            <span className='stock'>In Stock</span>
+                        </div>
                     </div>
                 </div>
             </div>
