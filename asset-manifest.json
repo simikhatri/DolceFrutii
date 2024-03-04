@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/DolceFrutii/static/css/main.8412f8c6.css",
-    "main.js": "/DolceFrutii/static/js/main.f3c31a42.js",
+    "main.css": "/DolceFrutii/static/css/main.1f4047ec.css",
+    "main.js": "/DolceFrutii/static/js/main.857f743d.js",
+    "static/media/Date.png": "/DolceFrutii/static/media/Date.09a730da3b6c8bd4d1f7.png",
     "static/media/pic3.jpg": "/DolceFrutii/static/media/pic3.6c1536fc73aeae7d2db7.jpg",
     "static/media/orange fruit collage.jpg": "/DolceFrutii/static/media/orange fruit collage.b1b1fd8a494d5928c44d.jpg",
     "static/media/login.jpg": "/DolceFrutii/static/media/login.2feb87f4c1a4724aec04.jpg",
     "static/media/pic2.jpg": "/DolceFrutii/static/media/pic2.055f92ac4f201e2762d5.jpg",
     "static/media/marsh ruby blush.jpg": "/DolceFrutii/static/media/marsh ruby blush.c1c862347a9c0c40d0c5.jpg",
     "static/media/pic1.jpg": "/DolceFrutii/static/media/pic1.597ccb102abb744e3da5.jpg",
+    "static/media/Citrus.jpg": "/DolceFrutii/static/media/Citrus.51aad83e391f81fc73b4.jpg",
     "static/media/contact.jpg": "/DolceFrutii/static/media/contact.01cad17ff076cfd2a9cc.jpg",
     "static/media/pomegranate.jpg": "/DolceFrutii/static/media/pomegranate.3a37107d72ad39a2086f.jpg",
     "static/media/mango fruit collage.jpg": "/DolceFrutii/static/media/mango fruit collage.ca5e33a9d63b461b7324.jpg",
@@ -25,17 +27,18 @@
     "static/media/mango.jpg": "/DolceFrutii/static/media/mango.e1e4f80b2b3d536a8904.jpg",
     "static/media/Golden Lady.jpeg": "/DolceFrutii/static/media/Golden Lady.d6491fab82fe087fc022.jpeg",
     "static/media/Desert Ruby.jpeg": "/DolceFrutii/static/media/Desert Ruby.44d427bf4d554aba4391.jpeg",
+    "static/media/Mango1.jpg": "/DolceFrutii/static/media/Mango1.fbab4533c7f25875895f.jpg",
     "static/media/valencia pride.jpg": "/DolceFrutii/static/media/valencia pride.80c170eaf01167ffd810.jpg",
     "static/media/fig1.jpg": "/DolceFrutii/static/media/fig1.bd2554822992b60ceb46.jpg",
     "static/media/marsh.jpg": "/DolceFrutii/static/media/marsh.529b916d85dfd801088a.jpg",
     "static/media/golden.jpg": "/DolceFrutii/static/media/golden.1c124b616fa337bfb483.jpg",
     "static/media/logo3.png": "/DolceFrutii/static/media/logo3.6f1ee389077417361cf5.png",
     "index.html": "/DolceFrutii/index.html",
-    "main.8412f8c6.css.map": "/DolceFrutii/static/css/main.8412f8c6.css.map",
-    "main.f3c31a42.js.map": "/DolceFrutii/static/js/main.f3c31a42.js.map"
+    "main.1f4047ec.css.map": "/DolceFrutii/static/css/main.1f4047ec.css.map",
+    "main.857f743d.js.map": "/DolceFrutii/static/js/main.857f743d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8412f8c6.css",
-    "static/js/main.f3c31a42.js"
+    "static/css/main.1f4047ec.css",
+    "static/js/main.857f743d.js"
   ]
 }
