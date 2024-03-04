@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../Assets/images/logo3.png';
+import logo from '../../Assets/images/logo-with back background.png';
 import { Link } from 'react-router-dom'
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
@@ -78,7 +78,7 @@ const Footer = () => {
                                         <Link to='/' className="link"><MdOutlinePhoneInTalk /> 760.786.7786</Link>
                                     </p>
                                     <p>
-                                        <Link to='/' className="link"><FaWhatsapp /> 760.600.6401</Link>
+                                        <Link to='/' className="link"><FaWhatsapp /> 760.786.7786</Link>
                                     </p>
                                     <p>
                                         <Link to='/' className="link"><LiaFaxSolid /> 760.786.8786</Link>
@@ -109,8 +109,8 @@ const Footer = () => {
                 <div className="btmFooter py-2">
                     <Link to='/PrivacyPolicy' className='btmlink px-2'>Return & Refund Policy</Link> |
                     <Link to='/PrivacyPolicy' className='btmlink px-2'>Privacy Policy</Link> |
-                    &nbsp; All &copy; 2024
-                    <Link to='https://www.dolcefrutti.com/' className='weblink px-2'> Dolce Frutti LLC</Link>
+                    All &copy; 2024
+                    <Link to='https://www.dolcefrutti.com/' className='weblink px-1'> Dolce Frutti LLC</Link>
                 </div>
             </footer >
         </>

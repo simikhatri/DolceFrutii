@@ -9,12 +9,13 @@
 }
 
 .Detail {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0.5rem;
 }
 
 .Detail h3 {
     font-weight: 600;
     color: #A06701;
+    font-size: 1.25rem;
 }
 
 .pagelink {
@@ -36,7 +37,6 @@
 
 .relatedPost {
     padding: 3rem 2rem;
-    text-align: center;
 }
 
 .relatedPost h1 {
@@ -57,5 +57,10 @@
 
 .relatedPost .card .card-title {
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
+}
+
+.productContent .para {
+    width: 78%;
+    margin-bottom: 1.5rem;
 }

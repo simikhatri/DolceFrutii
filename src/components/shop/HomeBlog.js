@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './css/Shop.css'
 import dates from '../../Assets/images/Date.png'
 import citrus from '../../Assets/images/Citrus.jpg'
-import mango from '../../Assets/images/Mango1.jpg'
+import mango from '../../Assets/images/pic2.jpg'
 import { MdNavigateNext } from "react-icons/md";
 
 
@@ -21,7 +21,7 @@ const HomeBlog = () => {
                                         <img src={dates} className="card-img-top img-fluid" alt="..." />
                                         <div className="card-body text-start">
                                             <h4 className="card-title">Dates</h4>
-                                            <p>Nature's sweet gems, a delightful blend of chewy and rich goodness.</p>
+                                            <p>Taste the Golden Harvest: Unveiling the Best Organic Barhi Dates California</p>
                                             <Link to="/productDesciption" className="shop">View
                                                 <MdNavigateNext /></Link>
                                         </div>
