@@ -67,3 +67,22 @@
 .category .card .card-body .stock {
     font-size: 14px;
 }
+
+.SelectBtn {
+    /* margin: 0.25rem 0 0.5rem; */
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: black;
+    padding: 0.2rem 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    text-decoration: none;
+    padding: 0.3rem 0;
+    font-size: 18px;
+}
+
+.SelectBtn:hover {
+    background-color: #E1C343;
+    color: black;
+}

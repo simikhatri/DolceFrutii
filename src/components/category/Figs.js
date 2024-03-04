@@ -1,11 +1,11 @@
 import React from 'react'
 import category1 from '../../Assets/images/category1.jpg'
 import { FaStar } from "react-icons/fa";
-import { Link } from 'react-router-dom';
-import SelectOptionButton from "./SelectBtn"
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Figs = () => {
+    const navigate = useNavigate()
     return (
         <div className='mt-4 categoryItems'>
             <h1 className='CatHeading'>Figs</h1>
@@ -20,7 +20,9 @@ const Figs = () => {
                                 <h5 className="card-title my-1 mt-1">Violette de Bordeaux</h5>
                             </Link>
                             <p className="card-text">From $96</p>
-                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            {/* <SelectOptionButton options={['Option A', 'Option B', 'Option C']} /> */}
+                            <button className='SelectBtn'
+                                onClick={() => navigate("/description")}>Select Option</button>
                             <div className='mt-2'>
                                 <FaStar className='icon' />
                                 <FaStar className='icon' />

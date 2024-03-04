@@ -16,15 +16,10 @@
     color: black;
 }
 
-.SelectOption ul {
+.SelectOption option {
     background-color: #ECEFF0;
     list-style: none;
     padding: 0;
-    text-align: center;
     padding-top: 0.5rem;
-    font-weight: 600;
     cursor: pointer;
-}
-.SelectOption li:hover {
-    color: #948025;
 }

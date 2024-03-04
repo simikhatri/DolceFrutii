@@ -16,6 +16,7 @@ import Login from './components/login/Login';
 import SignUp from './components/signp/SignUp';
 import Testimonials from './Pages/Testimonials';
 import Loading from './components/loading/loading'
+import ProductDescription from './components/dateDescription/index'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,13 +24,13 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000); 
+    }, 2000);
   }, []);
 
   return (
     <>
       {loading ? (
-        <Loading /> 
+        <Loading />
       ) : (
         <>
           <Header />
@@ -45,6 +46,7 @@ function App() {
             <Route path="/PrivacyPolicy" element={<Policy />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/productDesciption" element={<ProductDescription />} />
           </Routes>
           <Footer />
         </>

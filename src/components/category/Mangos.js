@@ -4,11 +4,11 @@ import desert from '../../Assets/images/Desert Ruby.jpeg'
 import goldenlady from '../../Assets/images/Golden Lady.jpeg'
 import keitt from '../../Assets/images/keitt.jpeg'
 import { FaStar } from "react-icons/fa";
-import { Link } from 'react-router-dom';
-import SelectOptionButton from "./SelectBtn"
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Mangos = () => {
+    const navigate = useNavigate()
     return (
         <div className='mt-4 categoryItems'>
             <h1 className='CatHeading'>Mangos</h1>
@@ -23,7 +23,8 @@ const Mangos = () => {
                                 <h5 className="card-title my-1 mt-1">Golden Lady</h5>
                             </Link>
                             <p className="card-text">From $96</p>
-                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <button className='SelectBtn'
+                                onClick={() => navigate("/description")}>Select Option</button>
                             <div className='mt-2'>
                                 <FaStar className='icon' />
                                 <FaStar className='icon' />
@@ -46,7 +47,8 @@ const Mangos = () => {
                                 <h5 className="card-title my-1 mt-1">Valencia Pride</h5>
                             </Link>
                             <p className="card-text">From $96</p>
-                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <button className='SelectBtn'
+                                onClick={() => navigate("/description")}>Select Option</button>
                             <div className='mt-2'>
                                 <FaStar className='icon' />
                                 <FaStar className='icon' />
@@ -69,7 +71,8 @@ const Mangos = () => {
                                 <h5 className="card-title my-1 mt-1">Desert Ruby</h5>
                             </Link>
                             <p className="card-text">From $96</p>
-                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <button className='SelectBtn'
+                                onClick={() => navigate("/description")}>Select Option</button>
                             <div className='mt-2'>
                                 <FaStar className='icon' />
                                 <FaStar className='icon' />
@@ -92,7 +95,8 @@ const Mangos = () => {
                                 <h5 className="card-title my-1 mt-1">Keitt</h5>
                             </Link>
                             <p className="card-text">From $96</p>
-                            <SelectOptionButton options={['Option A', 'Option B', 'Option C']} />
+                            <button className='SelectBtn'
+                                onClick={() => navigate("/description")}>Select Option</button>
                             <div className='mt-2'>
                                 <FaStar className='icon' />
                                 <FaStar className='icon' />

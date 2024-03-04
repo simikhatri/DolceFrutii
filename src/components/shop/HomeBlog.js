@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/Shop.css'
-import dates from '../../Assets/images/cm9.jpg'
-import pome from '../../Assets/images/pomog.jpg'
+import dates from '../../Assets/images/Date.jpeg'
+import pome from '../../Assets/images/Citrus.jpg'
 import fig from '../../Assets/images/fig.jpg'
 import { MdNavigateNext } from "react-icons/md";
 
@@ -22,7 +22,7 @@ const HomeBlog = () => {
                                         <div className="card-body text-start">
                                             <h4 className="card-title">Dates</h4>
                                             <p>Nature's sweet gems, a delightful blend of chewy and rich goodness.</p>
-                                            <Link to="/blog" className="shop">View
+                                            <Link to="/productDesciption" className="shop">View
                                                 <MdNavigateNext /></Link>
                                         </div>
                                     </div>
@@ -33,7 +33,7 @@ const HomeBlog = () => {
                                     <div className="card" >
                                         <img src={pome} className="card-img-top" alt="..." />
                                         <div className="card-body text-start">
-                                            <h4 className="card-title">Pomegranates</h4>
+                                            <h4 className="card-title">Citrus</h4>
                                             <p>Bursting jewels, a taste explosion of sweet and tart perfection.</p>
                                             <Link to="/blog" className="shop">View
                                                 <MdNavigateNext /></Link>
@@ -46,7 +46,7 @@ const HomeBlog = () => {
                                     <div className="card" >
                                         <img src={fig} className="card-img-top" alt="..." />
                                         <div className="card-body text-start">
-                                            <h4 className="card-title">Figs</h4>
+                                            <h4 className="card-title">Mangos</h4>
                                             <p> Nature's candy, a sweet and chewy delight for a wholesome treat.</p>
                                             <Link to="/blog" className="shop">View
                                                 <MdNavigateNext /></Link>
