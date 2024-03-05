@@ -3,7 +3,10 @@ import date from '../../Assets/images/Date.png'
 import './_.css'
 import { Link } from 'react-router-dom'
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
-import dates from "../../Assets/images/cm9.jpg"
+import pic1 from "../../Assets/images/blog1.jpg"
+import pic2 from "../../Assets/images/blog2.jpg"
+import pic3 from "../../Assets/images/date1.jpg"
+
 
 const index = () => {
     const currentDate = new Date().toLocaleDateString('en-US', {
@@ -145,7 +148,7 @@ const index = () => {
                             <Row>
                                 <Col lg={4}>
                                     <Card>
-                                        <Card.Img variant="top" src={dates} />
+                                        <Card.Img variant="top" src={pic2} />
                                         <Card.Body>
                                             <Card.Title>barhi dates stages</Card.Title>
                                         </Card.Body>
@@ -153,7 +156,7 @@ const index = () => {
                                 </Col>
                                 <Col lg={4}>
                                     <Card>
-                                        <Card.Img variant="top" src={dates} />
+                                        <Card.Img variant="top" src={pic3} />
                                         <Card.Body>
                                             <Card.Title>barhi dates benefits</Card.Title>
                                         </Card.Body>
@@ -161,7 +164,7 @@ const index = () => {
                                 </Col>
                                 <Col lg={4}>
                                     <Card>
-                                        <Card.Img variant="top" src={dates} />
+                                        <Card.Img variant="top" src={pic1} />
                                         <Card.Body>
                                             <Card.Title>best way to store medjool dates</Card.Title>
                                         </Card.Body>

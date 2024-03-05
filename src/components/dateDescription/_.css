@@ -54,6 +54,8 @@
 
 .relatedPost .card img {
     width: 240px;
+    height: 200px;
+    border-radius: 5px;
 }
 
 .relatedPost .card .card-title {
