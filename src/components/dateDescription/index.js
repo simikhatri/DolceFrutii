@@ -141,7 +141,7 @@ const index = () => {
                             </div>
                         </div>
                         <div className="relatedPost">
-                            <h1 className='mb-4 pb-2'>Related Blog Posts</h1>
+                            <h1 className='mb-4 pb-2 '>Related Blog Posts</h1>
                             <Row>
                                 <Col lg={4}>
                                     <Card>
